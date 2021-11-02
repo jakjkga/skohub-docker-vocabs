@@ -58,7 +58,7 @@ jobs:
 
       - run: mkdir data
 
-      - run: git clone https://github.com/skohub-io/skohub-docker-vocabs.git data/
+      - run: git clone https://github.com/jakjkga/skohub-docker-vocabs.git data/
 
       - name: make .env.production file
         run: echo "BASERURL=/skohub-docker-vocabs" > .env.production

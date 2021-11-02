@@ -4,8 +4,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 color: a skos:ConceptScheme ;
-    dct:title "Colors"@en, "Farben"@de ;
-    dct:creator "Hans Dampf"@de ;
+    dct:title "Colors Vocabulary"@en, "Farben-Vokabular"@de ;
+    dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-02"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept color:b0001 color:b0002 .

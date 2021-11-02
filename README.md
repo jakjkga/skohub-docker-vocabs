@@ -1,3 +1,15 @@
+# Online-Webeditor für RDF-Syntax-Check
+
+https://felixlohmeier.github.io/turtle-web-editor/
+
+# Kurzpräsentation und Pad
+
+https://pad.gwdg.de/p/einfuehrung-in-skos-mit-skohub#/49
+
+https://pad.gwdg.de/s/OCbQBibi2
+
+
+
 # SkoHub Docker Vocabs
 
 This is a example repository to show how you can publish your SKOS vocabulary using GitHub infrastructure.

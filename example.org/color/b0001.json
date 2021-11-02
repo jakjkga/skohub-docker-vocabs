@@ -18,8 +18,8 @@
   "inScheme": {
     "id": "https://example.org/color/",
     "title": {
-      "en": "Colors",
-      "de": "Farben"
+      "en": "Colors Vocabulary",
+      "de": "Farben-Vokabular"
     }
   },
   "topConceptOf": {

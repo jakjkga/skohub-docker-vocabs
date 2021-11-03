@@ -1,70 +1,20 @@
 {
-  "id": "https://example.org/schulform/BS",
+  "id": "https://example.org/schulform/BSGartLand",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FBS",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FBS",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FBSGartLand",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FBSGartLand",
   "prefLabel": {
-    "de": "Berufsschule"
+    "de": "Berufsschule Gartenbau Fachrichtung Garten und Landschaftsbau"
   },
   "altLabel": {
     "de": [
-      "Berufssch."
+      "Berufssch. Gartenb. Fachr. Gart. u. Lanschaftsb."
     ]
   },
-  "narrower": [
-    {
-      "id": "https://example.org/schulform/BSHausWi",
-      "prefLabel": {
-        "de": "Berufsschule Ausbildungsberuf Hauswirtschafterin/Hauswirtschafter"
-      }
-    },
-    {
-      "id": "https://example.org/schulform/BSLandw",
-      "prefLabel": {
-        "de": "Berufsschule Ausbildungsberuf Landwirt/Landwirtin"
-      }
-    },
-    {
-      "id": "https://example.org/schulform/BSGartBaum",
-      "prefLabel": {
-        "de": "Berufsschule Gartenbau Fachrichtung Baumschule"
-      }
-    },
-    {
-      "id": "https://example.org/schulform/BSGartFried",
-      "prefLabel": {
-        "de": "Berufsschule Gartenbau Fachrichtung Friedhofsgärtnerei"
-      }
-    },
-    {
-      "id": "https://example.org/schulform/BSGartLand",
-      "prefLabel": {
-        "de": "Berufsschule Gartenbau Fachrichtung Garten und Landschaftsbau"
-      }
-    },
-    {
-      "id": "https://example.org/schulform/BSGartObst",
-      "prefLabel": {
-        "de": "Berufsschule Gartenbau Fachrichtung Obstbau"
-      }
-    },
-    {
-      "id": "https://example.org/schulform/BSGartStaud",
-      "prefLabel": {
-        "de": "Berufsschule Gartenbau Fachrichtung Staudengärtnerei"
-      }
-    },
-    {
-      "id": "https://example.org/schulform/BSGartZier",
-      "prefLabel": {
-        "de": "Berufsschule Gartenbau Fachrichtung Zierpflanzenbau"
-      }
-    }
-  ],
   "broader": {
-    "id": "https://example.org/schulform/BBS",
+    "id": "https://example.org/schulform/BS",
     "prefLabel": {
-      "de": "Berufliche Schule"
+      "de": "Berufsschule"
     }
   },
   "inScheme": {

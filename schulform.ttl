@@ -12,47 +12,38 @@ schulform: a skos:ConceptScheme ;
 
 schulform:AS a skos:Concept ;
     skos:prefLabel "Allgemeinbildende Schule"@de ;
-    skos:altLabel "Allg. Schule"@de ;
-    skos:altLabel "AS"@de ;
+    skos:altLabel "Allg. Schule"@de, "AS"@de ;
     skos:narrower schulform:GS, schulform:MS, schulform:RS, schulform:GY ;
     skos:topConceptOf schulform: .
 
 schulform:GS a skos:Concept ;
     skos:prefLabel "Grundschule"@de ;
-    skos:altLabel "Grundsch."@de ;
-    skos:altLabel "GS"@de ;
+    skos:altLabel "Grundsch."@de, "GS"@de ;
     skos:broader schulform:AS ;
     skos:inScheme schulform: .
 
 schulform:MS a skos:Concept ;
     skos:prefLabel "Mittelschule"@de ;
-    skos:altLabel "Mittelsch."@de ;
-    skos:altLabel "MS"@de ;
+    skos:altLabel "Mittelsch."@de, "MS"@de ;
     skos:hiddenLabel "Hauptschule"@de ;
     skos:broader schulform:AS ;
     skos:inScheme schulform: .
 
 schulform:RS a skos:Concept ;
     skos:prefLabel "Realschule"@de ;
-    skos:altLabel "Realsch."@de ;
-    skos:altLabel "RS"@de ;
+    skos:altLabel "Realsch."@de, "RS"@de ;
     skos:broader schulform:AS ;
     skos:inScheme schulform: .
 
 schulform:GY a skos:Concept ;
     skos:prefLabel "Gynasium"@de ;
-    skos:altLabel "Gymn."@de ;
-    skos:altLabel "GY"@de ;
-    skos:altLabel "GYM"@de ;
+    skos:altLabel "Gymn."@de, "GY"@de, "GYM"@de ;
     skos:broader schulform:AS ;
     skos:inScheme schulform: .
 
 schulform:BBS a skos:Concept ;
     skos:prefLabel "Berufliche Schule"@de ;
-    skos:altLabel "Berufl. Schule"@de ;
-    skos:altLabel "Berufsbildende Schule"@de ;
-    skos:altLabel "BBS"@de ;
-    skos:altLabel "BES"@de ;
+    skos:altLabel "Berufl. Schule"@de, "Berufsbildende Schule"@de, "BBS"@de, "BES"@de ;
     skos:narrower schulform:BS, schulform:BFS, schulform:FA, schulform:FS ;
     skos:topConceptOf schulform: .
 
@@ -60,6 +51,55 @@ schulform:BS a skos:Concept ;
     skos:prefLabel "Berufsschule"@de ;
     skos:altLabel "Berufssch."@de ;
     skos:broader schulform:BBS ;
+    skos:narrower schulform:BSHausWi, schulform:BSLandw, schulform:BSGartBaum, schulform: BSGartFried, schulform:BSGartLand, schulform:BSGartObst, schulform:BSGartStaud, schulform:BSGartZier;
+    skos:inScheme schulform: .
+
+schulform:BSHausWi a skos:Concept ;
+    skos:prefLabel "Berufsschule Ausbildungsberuf Hauswirtschafterin/Hauswirtschafter"@de ;
+    skos:altLabel "Berufssch. Ausb. Hauswirtsch."@de ;
+    skos:broader schulform:BS ;
+    skos:inScheme schulform: .
+
+schulform:BSLandw a skos:Concept ;
+    skos:prefLabel "Berufsschule Ausbildungsberuf Landwirt/Landwirtin"@de ;
+    skos:altLabel "Berufssch. Ausb. Landw."@de ;
+    skos:broader schulform:BS ;
+    skos:inScheme schulform: .
+
+schulform:BSGartBaum a skos:Concept ;
+    skos:prefLabel "Berufsschule Gartenbau Fachrichtung Baumschule"@de ;
+    skos:altLabel "Berufssch. Gartenb. Fachr. Baumsch."@de ;
+    skos:broader schulform:BS ;
+    skos:inScheme schulform: .
+
+schulform:BSGartFried a skos:Concept ;
+    skos:prefLabel "Berufsschule Gartenbau Fachrichtung Friedhofsgärtnerei"@de ;
+    skos:altLabel "Berufssch. Gartenb. Fachr. Friedhof"@de ;
+    skos:broader schulform:BS ;
+    skos:inScheme schulform: .
+
+schulform:BSGartLand a skos:Concept ;
+    skos:prefLabel "Berufsschule Gartenbau Fachrichtung Garten und Landschaftsbau"@de ;
+    skos:altLabel "Berufssch. Gartenb. Fachr. Gart. u. Lanschaftsb."@de ;
+    skos:broader schulform:BS ;
+    skos:inScheme schulform: .
+
+schulform:BSGartObst a skos:Concept ;
+    skos:prefLabel "Berufsschule Gartenbau Fachrichtung Obstbau"@de ;
+    skos:altLabel "Berufssch. Gartenb. Fachr. Obstb."@de ;
+    skos:broader schulform:BS ;
+    skos:inScheme schulform: .
+
+schulform:BSGartStaud a skos:Concept ;
+    skos:prefLabel "Berufsschule Gartenbau Fachrichtung Staudengärtnerei"@de ;
+    skos:altLabel "Berufssch. Gartenb. Fachr. Staudeng."@de ;
+    skos:broader schulform:BS ;
+    skos:inScheme schulform: .
+
+schulform:BSGartZier a skos:Concept ;
+    skos:prefLabel "Berufsschule Gartenbau Fachrichtung Zierpflanzenbau"@de ;
+    skos:altLabel "Berufssch. Gartenb. Fachr. Zierpfl."@de ;
+    skos:broader schulform:BS ;
     skos:inScheme schulform: .
 
 schulform:BFS a skos:Concept ;
@@ -143,8 +183,7 @@ schulform:BFSKaufmAss a skos:Concept ;
 
 schulform:FA a skos:Concept ;
     skos:prefLabel "Fachakademie"@de ;
-    skos:altLabel "Fachakad."@de ;
-    skos:altLabel "FAK"@de ;
+    skos:altLabel "Fachakad."@de, "FAK"@de ;
     skos:broader schulform:BBS ;
     skos:inScheme schulform: .
 

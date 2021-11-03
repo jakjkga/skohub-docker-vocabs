@@ -25,7 +25,7 @@ schulform:GS a skos:Concept ;
 schulform:MS a skos:Concept ;
     skos:prefLabel "Mittelschule"@de ;
     skos:altLabel "Mittelsch."@de ;
-    skos:altLabel "Hauptschule"@de ;
+    skos:hiddenLabel "Hauptschule"@de ;
     skos:broader schulform:AS ;
     skos:inScheme schulform: .
 

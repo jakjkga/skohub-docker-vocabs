@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 schulform: a skos:ConceptScheme ;
-    dct:title "Schulform"@de ;
+    dct:title "Schulformen"@de ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-02"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -57,6 +57,79 @@ schulform:BFS a skos:Concept ;
     skos:prefLabel "Berufsfachschule"@de ;
     skos:altLabel "Berufsfachsch."@de ;
     skos:broader schulform:BES ;
+    skos:narrower schulform:BFS-AltPfl, schulform:BFS-AltPflHi, schulform: BFS-APH-KPH, schulform:BFS-ErnVers, schulform:BFS-FremdSpr, schulform:BFS-GenPfl, schulform:BFS-KiPfl, schulform:BFS-KiPfl-Soz, schulform:BFS-KranPfl, schulform:BFS-KranPflHi, schulform:BFS-SozPfl, schulform:BFS-KaufmAss;
+    skos:inScheme schulform: .
+
+schulform:BFS-AltPfl a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Altenpflege"@de ;
+    skos:altLabel "Berufsfachsch. f. Altenpfl."@de ;
+    skos:broader schulform:BFS ;
+    skos:inScheme schulform: .
+
+schulform:BFS-AltPflHi a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Altenpflegehilfe"@de ;
+    skos:altLabel "Berufsfachsch. f. Altenpfl. Hilfe"@de ;
+    skos:broader schulform:BFS ;
+    skos:inScheme schulform: .
+
+schulform:BFS-APH-KPH a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Altenpflegehilfe und Krankenpflegehilfe"@de ;
+    skos:altLabel "Berufsfachsch. f. Alten- und Krankenpfl. Hilfe"@de ;
+    skos:broader schulform:BFS ;
+    skos:inScheme schulform: .
+
+schulform:BFS-ErnVers a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Ernährung und Versorgung"@de ;
+    skos:altLabel "Berufsfachsch. f. Ern. u. Vers."@de ;
+    skos:broader schulform:BFS ;
+    skos:inScheme schulform: .
+
+schulform:BFS-FremdSpr a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Fremdsprachenberufe"@de ;
+    skos:altLabel "Berufsfachsch. f. Fremdspr."@de ;
+    skos:broader schulform:BFS ;
+    skos:inScheme schulform: .
+
+schulform:BFS-GenPfl a skos:Concept ;
+    skos:prefLabel "Generalistische Pflegeausbildung mit beruflichem Schwerpunkt"@de ;
+    skos:altLabel "Gen. Pflegeausb. m. berufl. Schw."@de ;
+    skos:broader schulform:BFS ;
+    skos:inScheme schulform: .
+
+schulform:BFS-KiPfl a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Kinderpflege"@de ;
+    skos:altLabel "Berufsfachsch. f. Kinderpfl."@de ;
+    skos:broader schulform:BFS ;
+    skos:inScheme schulform: .
+
+schulform:BFS-KiPfl-Soz a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Kinderpflege und Sozialpädagogisches Seminar"@de ;
+    skos:altLabel "Berufsfachsch. f. Kinderpfl. m. Sozpäd. Seminar"@de ;
+    skos:broader schulform:BFS ;
+    skos:inScheme schulform: .
+
+schulform:BFS-KranPfl a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Krankenpflege"@de ;
+    skos:altLabel "Berufsfachsch. f. Krankenpfl."@de ;
+    skos:broader schulform:BFS ;
+    skos:inScheme schulform: .
+
+schulform:BFS-KranPflHi a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Krankenpflegehilfe"@de ;
+    skos:altLabel "Berufsfachsch. f. Krankenpfl. Hilfe"@de ;
+    skos:broader schulform:BFS ;
+    skos:inScheme schulform: .
+
+schulform:BFS-SozPfl a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Sozialpflege"@de ;
+    skos:altLabel "Berufsfachsch. f. Sozialpfl."@de ;
+    skos:broader schulform:BFS ;
+    skos:inScheme schulform: .
+
+schulform:BFS-KaufmAss a skos:Concept ;
+    skos:prefLabel "Berufsfachschulen für kaufmännische Assistenten"@de ;
+    skos:altLabel "Berufsfachsch. f. kaufm. Ass."@de ;
+    skos:broader schulform:BFS ;
     skos:inScheme schulform: .
 
 schulform:FAK a skos:Concept ;

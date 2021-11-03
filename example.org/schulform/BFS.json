@@ -11,6 +11,80 @@
       "Berufsfachsch."
     ]
   },
+  "narrower": [
+    {
+      "id": "https://example.org/schulform/BFSAltPfl",
+      "prefLabel": {
+        "de": "Berufsfachschule für Altenpflege"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/BFSAltPflHi",
+      "prefLabel": {
+        "de": "Berufsfachschule für Altenpflegehilfe"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/BFSAPHKPH",
+      "prefLabel": {
+        "de": "Berufsfachschule für Altenpflegehilfe und Krankenpflegehilfe"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/BFSErnVers",
+      "prefLabel": {
+        "de": "Berufsfachschule für Ernährung und Versorgung"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/BFSFremdSpr",
+      "prefLabel": {
+        "de": "Berufsfachschule für Fremdsprachenberufe"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/BFSGenPfl",
+      "prefLabel": {
+        "de": "Generalistische Pflegeausbildung mit beruflichem Schwerpunkt"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/BFSKiPfl",
+      "prefLabel": {
+        "de": "Berufsfachschule für Kinderpflege"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/BFSKiPflSoz",
+      "prefLabel": {
+        "de": "Berufsfachschule für Kinderpflege und Sozialpädagogisches Seminar"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/BFSKranPfl",
+      "prefLabel": {
+        "de": "Berufsfachschule für Krankenpflege"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/BFSKranPflHi",
+      "prefLabel": {
+        "de": "Berufsfachschule für Krankenpflegehilfe"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/BFSSozPfl",
+      "prefLabel": {
+        "de": "Berufsfachschule für Sozialpflege"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/BFSKaufmAss",
+      "prefLabel": {
+        "de": "Berufsfachschulen für kaufmännische Assistenten"
+      }
+    }
+  ],
   "broader": {
     "id": "https://example.org/schulform/BES",
     "prefLabel": {
@@ -20,7 +94,7 @@
   "inScheme": {
     "id": "https://example.org/schulform/",
     "title": {
-      "de": "Schulform"
+      "de": "Schulformen"
     }
   },
   "@context": {

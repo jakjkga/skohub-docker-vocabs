@@ -8,7 +8,8 @@
   },
   "altLabel": {
     "de": [
-      "Allg. Schule"
+      "Allg. Schule",
+      "AS"
     ]
   },
   "narrower": [
@@ -31,9 +32,9 @@
       }
     },
     {
-      "id": "https://example.org/schulform/GYM",
+      "id": "https://example.org/schulform/GY",
       "prefLabel": {
-        "de": "Gymnasium"
+        "de": "Gynasium"
       }
     }
   ],

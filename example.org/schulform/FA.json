@@ -1,18 +1,19 @@
 {
-  "id": "https://example.org/schulform/FAK",
+  "id": "https://example.org/schulform/FA",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FFAK",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FFAK",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FFA",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FFA",
   "prefLabel": {
     "de": "Fachakademie"
   },
   "altLabel": {
     "de": [
-      "Fachakad."
+      "Fachakad.",
+      "FAK"
     ]
   },
   "broader": {
-    "id": "https://example.org/schulform/BES",
+    "id": "https://example.org/schulform/BBS",
     "prefLabel": {
       "de": "Berufliche Schule"
     }

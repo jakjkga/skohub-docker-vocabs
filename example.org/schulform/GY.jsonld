@@ -1,50 +1,29 @@
 {
-  "id": "https://example.org/schulform/BES",
+  "id": "https://example.org/schulform/GY",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FBES",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FBES",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FGY",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FGY",
   "prefLabel": {
-    "de": "Berufliche Schule"
+    "de": "Gynasium"
   },
   "altLabel": {
     "de": [
-      "Berufl. Schule"
+      "Gymn.",
+      "GY",
+      "GYM"
     ]
   },
-  "narrower": [
-    {
-      "id": "https://example.org/schulform/BS",
-      "prefLabel": {
-        "de": "Berufsschule"
-      }
-    },
-    {
-      "id": "https://example.org/schulform/BFS",
-      "prefLabel": {
-        "de": "Berufsfachschule"
-      }
-    },
-    {
-      "id": "https://example.org/schulform/FAK",
-      "prefLabel": {
-        "de": "Fachakademie"
-      }
-    },
-    {
-      "id": "https://example.org/schulform/FS",
-      "prefLabel": {
-        "de": "Fachschule"
-      }
+  "broader": {
+    "id": "https://example.org/schulform/AS",
+    "prefLabel": {
+      "de": "Allgemeinbildende Schule"
     }
-  ],
+  },
   "inScheme": {
     "id": "https://example.org/schulform/",
     "title": {
       "de": "Schulformen"
     }
-  },
-  "topConceptOf": {
-    "id": "https://example.org/schulform/"
   },
   "@context": {
     "@version": 1.1,

@@ -57,7 +57,7 @@ schulform:BFS a skos:Concept ;
     skos:prefLabel "Berufsfachschule"@de ;
     skos:altLabel "Berufsfachsch."@de ;
     skos:broader schulform:BES ;
-    skos:narrower schulform:BFSAltPfl, schulform:BFSAltPflHi, schulform: BFSAPHKPH, schulform:BFSErnVers, schulform:BFSFremdSpr, schulform:BFSGenPfl, schulform:BFSKiPfl, schulform:BFSKiPfl-Soz, schulform:BFSKranPfl, schulform:BFSKranPflHi, schulform:BFSSozPfl, schulform:BFSKaufmAss;
+    skos:narrower schulform:BFSAltPfl, schulform:BFSAltPflHi, schulform:BFSAPHKPH, schulform:BFSErnVers, schulform:BFSFremdSpr, schulform:BFSGenPfl, schulform:BFSKiPfl, schulform:BFSKiPfl-Soz, schulform:BFSKranPfl, schulform:BFSKranPflHi, schulform:BFSSozPfl, schulform:BFSKaufmAss;
     skos:inScheme schulform: .
 
 schulform:BFSAltPfl a skos:Concept ;

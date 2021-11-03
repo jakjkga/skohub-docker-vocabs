@@ -8,23 +8,26 @@ schulform: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-02"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept schulform:AS, schulform:BES, schulform:BB .
+    skos:hasTopConcept schulform:AS, schulform:BBS, schulform:BB .
 
 schulform:AS a skos:Concept ;
     skos:prefLabel "Allgemeinbildende Schule"@de ;
     skos:altLabel "Allg. Schule"@de ;
-    skos:narrower schulform:GS, schulform:MS, schulform:RS, schulform:GYM ;
+    skos:altLabel "AS"@de ;
+    skos:narrower schulform:GS, schulform:MS, schulform:RS, schulform:GY ;
     skos:topConceptOf schulform: .
 
 schulform:GS a skos:Concept ;
     skos:prefLabel "Grundschule"@de ;
     skos:altLabel "Grundsch."@de ;
+    skos:altLabel "GS"@de ;
     skos:broader schulform:AS ;
     skos:inScheme schulform: .
 
 schulform:MS a skos:Concept ;
     skos:prefLabel "Mittelschule"@de ;
     skos:altLabel "Mittelsch."@de ;
+    skos:altLabel "MS"@de ;
     skos:hiddenLabel "Hauptschule"@de ;
     skos:broader schulform:AS ;
     skos:inScheme schulform: .
@@ -32,31 +35,37 @@ schulform:MS a skos:Concept ;
 schulform:RS a skos:Concept ;
     skos:prefLabel "Realschule"@de ;
     skos:altLabel "Realsch."@de ;
+    skos:altLabel "RS"@de ;
     skos:broader schulform:AS ;
     skos:inScheme schulform: .
 
-schulform:GYM a skos:Concept ;
-    skos:prefLabel "Gymnasium"@de ;
+schulform:GY a skos:Concept ;
+    skos:prefLabel "Gynasium"@de ;
     skos:altLabel "Gymn."@de ;
+    skos:altLabel "GY"@de ;
+    skos:altLabel "GYM"@de ;
     skos:broader schulform:AS ;
     skos:inScheme schulform: .
 
-schulform:BES a skos:Concept ;
+schulform:BBS a skos:Concept ;
     skos:prefLabel "Berufliche Schule"@de ;
     skos:altLabel "Berufl. Schule"@de ;
-    skos:narrower schulform:BS, schulform:BFS, schulform:FAK, schulform:FS ;
+    skos:altLabel "Berufsbildende Schule"@de ;
+    skos:altLabel "BBS"@de ;
+    skos:altLabel "BES"@de ;
+    skos:narrower schulform:BS, schulform:BFS, schulform:FA, schulform:FS ;
     skos:topConceptOf schulform: .
 
 schulform:BS a skos:Concept ;
     skos:prefLabel "Berufsschule"@de ;
     skos:altLabel "Berufssch."@de ;
-    skos:broader schulform:BES ;
+    skos:broader schulform:BBS ;
     skos:inScheme schulform: .
 
 schulform:BFS a skos:Concept ;
     skos:prefLabel "Berufsfachschule"@de ;
     skos:altLabel "Berufsfachsch."@de ;
-    skos:broader schulform:BES ;
+    skos:broader schulform:BBS ;
     skos:narrower schulform:BFSAltPfl, schulform:BFSAltPflHi, schulform:BFSAPHKPH, schulform:BFSErnVers, schulform:BFSFremdSpr, schulform:BFSGenPfl, schulform:BFSKiPfl, schulform:BFSKiPflSoz, schulform:BFSKranPfl, schulform:BFSKranPflHi, schulform:BFSSozPfl, schulform:BFSKaufmAss;
     skos:inScheme schulform: .
 
@@ -132,16 +141,17 @@ schulform:BFSKaufmAss a skos:Concept ;
     skos:broader schulform:BFS ;
     skos:inScheme schulform: .
 
-schulform:FAK a skos:Concept ;
+schulform:FA a skos:Concept ;
     skos:prefLabel "Fachakademie"@de ;
     skos:altLabel "Fachakad."@de ;
-    skos:broader schulform:BES ;
+    skos:altLabel "FAK"@de ;
+    skos:broader schulform:BBS ;
     skos:inScheme schulform: .
 
 schulform:FS a skos:Concept ;
     skos:prefLabel "Fachschule"@de ;
     skos:altLabel "Fachsch."@de ;
-    skos:broader schulform:BES ;
+    skos:broader schulform:BBS ;
     skos:inScheme schulform: .
 
 schulform:BB a skos:Concept ;

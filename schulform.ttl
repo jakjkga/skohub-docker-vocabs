@@ -51,7 +51,7 @@ schulform:BS a skos:Concept ;
     skos:prefLabel "Berufsschule"@de ;
     skos:altLabel "Berufssch."@de ;
     skos:broader schulform:BBS ;
-    skos:narrower schulform:BSHausWi, schulform:BSLandw, schulform:BSGartBaum, schulform: BSGartFried, schulform:BSGartLand, schulform:BSGartObst, schulform:BSGartStaud, schulform:BSGartZier;
+    skos:narrower schulform:BSHausWi, schulform:BSLandw, schulform:BSGartBaum, schulform:BSGartFried, schulform:BSGartLand, schulform:BSGartObst, schulform:BSGartStaud, schulform:BSGartZier;
     skos:inScheme schulform: .
 
 schulform:BSHausWi a skos:Concept ;

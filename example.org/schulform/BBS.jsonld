@@ -38,6 +38,24 @@
       "prefLabel": {
         "de": "Fachschule"
       }
+    },
+    {
+      "id": "https://example.org/schulform/FSFABFSBSPlus",
+      "prefLabel": {
+        "de": "Fachschulen, Fachakademien, Berufsfachschulen, Berufsschule Plus"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/FSFABSPlus",
+      "prefLabel": {
+        "de": "Fachschulen, Fachakademien, Berufsschule Plus"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/WS",
+      "prefLabel": {
+        "de": "Wirtschaftsschule"
+      }
     }
   ],
   "inScheme": {

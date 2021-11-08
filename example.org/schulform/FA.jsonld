@@ -12,6 +12,38 @@
       "FAK"
     ]
   },
+  "narrower": [
+    {
+      "id": "https://example.org/schulform/FAErnVers",
+      "prefLabel": {
+        "de": "Fachakademie für Ernährungs- und Versorgungsmanagement"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/FAHeilPaed",
+      "prefLabel": {
+        "de": "Fachakademie für Heilpädagogik"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/FASozPaed",
+      "prefLabel": {
+        "de": "Fachakademie für Sozialpädagogik"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/FAWirt",
+      "prefLabel": {
+        "de": "Fachakademie für Wirtschaft"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/FADol",
+      "prefLabel": {
+        "de": "Fachakademie für Übersetzer und Dolmetscher"
+      }
+    }
+  ],
   "broader": {
     "id": "https://example.org/schulform/BBS",
     "prefLabel": {

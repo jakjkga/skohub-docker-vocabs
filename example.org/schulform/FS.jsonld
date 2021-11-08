@@ -11,6 +11,20 @@
       "Fachsch."
     ]
   },
+  "narrower": [
+    {
+      "id": "https://example.org/schulform/FSHeilerzPfl",
+      "prefLabel": {
+        "de": "Fachschule für Heilerziehungspflege"
+      }
+    },
+    {
+      "id": "https://example.org/schulform/FSHeilerzPflHi",
+      "prefLabel": {
+        "de": "Fachschule für Heilerziehungspflegehilfe"
+      }
+    }
+  ],
   "broader": {
     "id": "https://example.org/schulform/BBS",
     "prefLabel": {

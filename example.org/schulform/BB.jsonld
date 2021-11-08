@@ -11,6 +11,14 @@
       "Berufsbegl."
     ]
   },
+  "narrower": [
+    {
+      "id": "https://example.org/schulform/TK",
+      "prefLabel": {
+        "de": "Telekolleg"
+      }
+    }
+  ],
   "inScheme": {
     "id": "https://example.org/schulform/",
     "title": {

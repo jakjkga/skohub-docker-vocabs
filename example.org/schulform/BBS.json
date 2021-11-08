@@ -16,6 +16,12 @@
   },
   "narrower": [
     {
+      "id": "https://example.org/schulform/FOSBOS",
+      "prefLabel": {
+        "de": "Fachoberschule und Berufsoberschule"
+      }
+    },
+    {
       "id": "https://example.org/schulform/WS",
       "prefLabel": {
         "de": "Wirtschaftsschule"
@@ -55,12 +61,6 @@
       "id": "https://example.org/schulform/FSFABSPlus",
       "prefLabel": {
         "de": "Fachschulen, Fachakademien, Berufsschule Plus"
-      }
-    },
-    {
-      "id": "https://example.org/schulform/FOSBOS",
-      "prefLabel": {
-        "de": "Fachoberschule und Berufsoberschule"
       }
     }
   ],

@@ -44,7 +44,7 @@ schulform:GY a skos:Concept ;
 schulform:BBS a skos:Concept ;
     skos:prefLabel "Berufliche Schule"@de ;
     skos:altLabel "Berufl. Schule"@de, "Berufsbildende Schule"@de, "BBS"@de, "BES"@de ;
-    skos:narrower schulform:WS, schulform:BS, schulform:BFS, schulform:FA, schulform:FS ;
+    skos:narrower schulform:WS, schulform:BS, schulform:BFS, schulform:FA, schulform:FS, schulform:FSFABFSBSPlus, schulform:FSFABSPlus ;
     skos:topConceptOf schulform: .
 
 schulform:WS a skos:Concept ;

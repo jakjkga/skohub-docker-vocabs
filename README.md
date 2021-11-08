@@ -2,6 +2,8 @@
 
 https://felixlohmeier.github.io/turtle-web-editor/
 
+https://skos-play.sparna.fr/skos-testing-tool/result
+
 # Kurzpräsentation und Pad
 
 https://pad.gwdg.de/p/einfuehrung-in-skos-mit-skohub#/49

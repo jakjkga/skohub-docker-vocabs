@@ -55,7 +55,7 @@ schulform:WS a skos:Concept ;
 
 schulform:FOSBOS a skos:Concept ;
     skos:prefLabel "Fachoberschule und Berufsoberschule"@de ;
-    skos:altLabel "Fach- und Berufsoberschule"@de, "FOS/BOS"de, "FOSBOS"@de ;
+    skos:altLabel "Fach- und Berufsoberschule"@de, "FOS/BOS"@de, "FOSBOS"@de ;
     skos:broader schulform:BBS ;
     skos:inScheme schulform: .
 

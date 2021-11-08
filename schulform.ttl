@@ -44,8 +44,20 @@ schulform:GY a skos:Concept ;
 schulform:BBS a skos:Concept ;
     skos:prefLabel "Berufliche Schule"@de ;
     skos:altLabel "Berufl. Schule"@de, "Berufsbildende Schule"@de, "BBS"@de, "BES"@de ;
-    skos:narrower schulform:BS, schulform:BFS, schulform:FA, schulform:FS ;
+    skos:narrower schulform:WS, schulform:BS, schulform:BFS, schulform:FA, schulform:FS ;
     skos:topConceptOf schulform: .
+
+schulform:WS a skos:Concept ;
+    skos:prefLabel "Wirtschaftsschule"@de ;
+    skos:altLabel "Wirtsch. Schule"@de, "WS"@de ;
+    skos:broader schulform:BBS ;
+    skos:inScheme schulform: .
+
+schulform:FOSBOS a skos:Concept ;
+    skos:prefLabel "Fachoberschule und Berufsoberschule"@de ;
+    skos:altLabel "Fach- und Berufsoberschule"@de, "FOS/BOS"de, "FOSBOS"@de ;
+    skos:broader schulform:BBS ;
+    skos:inScheme schulform: .
 
 schulform:BS a skos:Concept ;
     skos:prefLabel "Berufsschule"@de ;
@@ -261,8 +273,4 @@ schulform:TK a skos:Concept ;
     skos:broader schulform:BB ;
     skos:inScheme schulform: .
 
-schulform:WS a skos:Concept ;
-    skos:prefLabel "Wirtschaftsschule"@de ;
-    skos:altLabel "Wirtsch. Schule"@de, "WS"@de ;
-    skos:broader schulform:BBS ;
-    skos:inScheme schulform: .
+

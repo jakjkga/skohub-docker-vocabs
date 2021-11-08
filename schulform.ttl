@@ -185,7 +185,7 @@ schulform:FA a skos:Concept ;
     skos:prefLabel "Fachakademie"@de ;
     skos:altLabel "Fachakad."@de, "FAK"@de ;
     skos:broader schulform:BBS ;
-    skos:narrower schulform:FAErnVers, schulform:FAHeilPaed, schulform:FASozPaed, schulform:FAWirt, schulform:FDol ;
+    skos:narrower schulform:FAErnVers, schulform:FAHeilPaed, schulform:FASozPaed, schulform:FAWirt, schulform:FADol ;
     skos:inScheme schulform: .
 
 schulform:FAErnVers a skos:Concept ;
@@ -245,7 +245,7 @@ schulform:FSFABFSBSPlus a skos:Concept ;
 
 schulform:FSFABSPlus a skos:Concept ;
     skos:prefLabel "Fachschulen, Fachakademien, Berufsschule Plus"@de ;
-    skos:altLabel "FS, FA, BFS, BS+"@de, "FAFSBSPlus"@de ;
+    skos:altLabel "FS, FA, BS+"@de, "FSFABSPlus"@de ;
     skos:broader schulform:BBS ;
     skos:inScheme schulform: .
 

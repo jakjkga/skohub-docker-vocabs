@@ -1,0 +1,55 @@
+@prefix lizenz: <https://example.org/lizenz/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+lizenz: a skos:ConceptScheme ;
+    dct:title "Lizenz"@de ;
+    dct:creator "Joachim Jakob"@de ;
+    dct:created "2021-11-12"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept lizenz:public, lizenz:nocopy, lizenz:blackened, lizenz:iqb, lizenz:restricted, lizenz:noembed, lizenz:blocked .
+
+lizenz:public a skos:Concept ;
+    skos:prefLabel "public (frei zugänglich)"@de ;
+    skos:altLabel "public"@de ;
+    skos:definition "Abschluss­prüfung / Jahrgangsstufen­arbeit zur Prüfungs­vorbereitung."@de ;
+    skos:topConceptOf lizenz: .
+
+lizenz:nocopy a skos:Concept ;
+    skos:prefLabel "no copy (Einsatz im Rahmen des Unterrichts)"@de ;
+    skos:altLabel "nocopy"@de ;
+    skos:definition "Die Prüfungs­aufgaben dürfen von der Lehrkraft nur im Rahmen des Unterrichts im Klassen­verband eingesetzt werden. Eine Weiterver­breitung des Materials darüber hinaus ist aus urheber­rechtlichen Gründen nicht zulässig. (Download und Drucken im PDF-Player sind deaktiviert)"@de ;
+    skos:topConceptOf lizenz: .
+
+lizenz:blackened a skos:Concept ;
+    skos:prefLabel "blackened (Inhalt wg. Urheberrecht teilw. geschwärzt)"@de ;
+    skos:altLabel "blackened"@de ;
+    skos:definition "Abschluss­prüfung / Jahrgangsstufen­arbeit zur Prüfungs­vorbereitung. Urheberrechtlich geschützte Inhalte wurden entfernt oder unkenntlich gemacht. (Download und Drucken im PDF-Player sind deaktiviert)"@de ;
+    skos:topConceptOf lizenz: .
+
+lizenz:iqb a skos:Concept ;
+    skos:prefLabel "IQB (Einsatz nur im Klassenverband - IQB-Material)"@de ;
+    skos:altLabel "iqb"@de ;
+    skos:definition "Herkunft: IQB - Die Aufgaben dürfen unter Angabe des Urhebers für nicht-kommerzielle Bildungszwecke genutzt werden. Eine Verwendung in anderen Publikationen ist ohne ausdrückliche Zustimmung der Urheber nicht gestattet.  (Download und Drucken im PDF-Player sind deaktiviert)"@de ;
+    skos:topConceptOf lizenz: .
+
+lizenz:restricted a skos:Concept ;
+    skos:prefLabel "restricted (Einsatz nur im Klassenverband - ISB-Material)"@de ;
+    skos:altLabel "restricted"@de ;
+    skos:definition "Vergleichsarbeit zur Verwendung im Rahmen des Unterrichts im Klassenverband. (Download und Drucken im PDF-Player sind deaktiviert)"@de ;
+    skos:topConceptOf lizenz: .
+
+lizenz:noembed a skos:Concept ;
+    skos:prefLabel "no embed (nur für Lehrkräfte und keine Einbettung)"@de ;
+    skos:altLabel "noembed"@de ;
+    skos:definition "Das vorliegende Dokument ist ausschließlich für die Hand der Lehrkraft bestimmt. Eine Weitergabe an Schüler ist untersagt. (Download und Drucken für den eigenen Gebrauch sind möglich, das Einbetten ist deaktiviert)"@de ;
+    skos:topConceptOf lizenz: .
+
+lizenz:blocked a skos:Concept ;
+    skos:prefLabel "blocked (keine Weitergabe an Schüler)"@de ;
+    skos:altLabel "blocked"@de ;
+    skos:definition "Das vorliegende Dokument ist ausschließlich für die Hand des Lehrers bestimmt. Eine Weitergabe an Schüler ist untersagt. (Download und Drucken im PDF-Player sind deaktiviert)"@de ;
+    skos:topConceptOf lizenz: .
+
+

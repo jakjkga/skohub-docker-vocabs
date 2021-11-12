@@ -84,31 +84,31 @@ pruefungsart:JA a skos:Concept ;
 
 pruefungsart:JA6 a skos:Concept ;
     skos:prefLabel "Jahrgangsstufenarbeit-6"@de ;
-    skos:altLabel "BAP"@de ;
+    skos:altLabel "JA6"@de ;
     skos:broader pruefungsart:JA ;
     skos:inScheme pruefungsart: .
 
 pruefungsart:JA7 a skos:Concept ;
     skos:prefLabel "Jahrgangsstufenarbeit-7"@de ;
-    skos:altLabel "BAP"@de ;
+    skos:altLabel "JA7"@de ;
     skos:broader pruefungsart:JA ;
     skos:inScheme pruefungsart: .
 
 pruefungsart:JA8 a skos:Concept ;
     skos:prefLabel "Jahrgangsstufenarbeit-8"@de ;
-    skos:altLabel "BAP"@de ;
+    skos:altLabel "JA8"@de ;
     skos:broader pruefungsart:JA ;
     skos:inScheme pruefungsart: .
 
 pruefungsart:JA9 a skos:Concept ;
     skos:prefLabel "Jahrgangsstufenarbeit-9"@de ;
-    skos:altLabel "BAP"@de ;
+    skos:altLabel "JA9"@de ;
     skos:broader pruefungsart:JA ;
     skos:inScheme pruefungsart: .
 
 pruefungsart:JA10 a skos:Concept ;
     skos:prefLabel "Jahrgangsstufenarbeit-10"@de ;
-    skos:altLabel "BAP"@de ;
+    skos:altLabel "JA10"@de ;
     skos:broader pruefungsart:JA ;
     skos:inScheme pruefungsart: .
 

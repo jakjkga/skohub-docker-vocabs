@@ -8,7 +8,7 @@ pruefungsart: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-12"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept pruefungsart:AP, pruefungsart:JA, pruefungsart:VA, pruefungsart:PU, pruefungsart:GW .
+    skos:hasTopConcept pruefungsart:AP .
 
 pruefungsart:AP a skos:Concept ;
     skos:prefLabel "Abschlussprüfung"@de ;
@@ -18,7 +18,7 @@ pruefungsart:AP a skos:Concept ;
 
 pruefungsart:Quali a skos:Concept ;
     skos:prefLabel "Qualifizierter Abschluss"@de ;
-    skos:altLabel "Qualifizierter Abschluss der Mittelschule", "Quali"@de ;
+    skos:altLabel "Qualifizierter Abschluss der Mittelschule"@de, "Quali"@de ;
     skos:broader pruefungsart:AP ;
     skos:inScheme pruefungsart: .
 

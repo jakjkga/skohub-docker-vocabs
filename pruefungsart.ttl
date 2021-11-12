@@ -132,7 +132,7 @@ pruefungsart:VERA3 a skos:Concept ;
 
 pruefungsart:VERA8 a skos:Concept ;
     skos:prefLabel "VERA-8"@de ;
-    skos:altLabel "VERA3"@de ;
+    skos:altLabel "VERA8"@de ;
     skos:broader pruefungsart:VA ;
     skos:inScheme pruefungsart: .
 

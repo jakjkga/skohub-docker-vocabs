@@ -257,7 +257,7 @@ fach:Gest a skos:Concept ;
 
 fach:GesUntAss a skos:Concept ;
     skos:prefLabel "Gesundheit, Unterstützung, Assistent"@de ;
-    skos:altLabel "GesPflAss"@de ;
+    skos:altLabel "GesUntAss"@de ;
     skos:topConceptOf fach: .
 
 fach:GesWiss a skos:Concept ;

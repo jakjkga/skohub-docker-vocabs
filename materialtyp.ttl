@@ -8,7 +8,7 @@ materialtyp: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-12"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept materialtyp:b0001, materialtyp:b0002 .
+    skos:hasTopConcept materialtyp:Abb, materialtyp:Aufg, materialtyp:Ausw, materialtyp:BspPruef, materialtyp:Diagn, materialtyp:DidHinw, materialtyp:Durchf, materialtyp:Ergeb, materialtyp:Erlaeut, materialtyp:Hinw, materialtyp:Hoerbsp, materialtyp:Hoerbsp, materialtyp:Hoerverst, materialtyp:LeistTest, materialtyp:List, materialtyp:Loes, materialtyp:LPBez, materialtyp:Mat, materialtyp:Med, materialtyp:muend, materialtyp:MusterPruef, materialtyp:Noten, materialtyp:PruefBsp, materialtyp:Read, materialtyp:TBT, materialtyp:Text, materialtyp:Textprod, materialtyp:UebHoerz, materialtyp:Write .
 
 materialtyp:Abb a skos:Concept ;
     skos:prefLabel "Abbildungen"@de ;
@@ -25,9 +25,9 @@ materialtyp:Ausw a skos:Concept ;
     skos:altLabel "Ausw"@de ;
     skos:topConceptOf materialtyp: .
 
-materialtyp:BspPruefu a skos:Concept ;
+materialtyp:BspPruef a skos:Concept ;
     skos:prefLabel "Beispielprüfung"@de ;
-    skos:altLabel "BspPruefu"@de ;
+    skos:altLabel "BspPruef"@de ;
     skos:topConceptOf materialtyp: .
 
 materialtyp:Diagn a skos:Concept ;
@@ -145,9 +145,9 @@ materialtyp:UebHoerz a skos:Concept ;
     skos:altLabel "UebHoerz"@de ;
     skos:topConceptOf materialtyp: .
 
-materialtyp:Writ a skos:Concept ;
+materialtyp:Write a skos:Concept ;
     skos:prefLabel "Writing"@de ;
-    skos:altLabel "Writ"@de ;
+    skos:altLabel "Write"@de ;
     skos:topConceptOf materialtyp: .
 
 

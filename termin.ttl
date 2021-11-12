@@ -1,0 +1,26 @@
+@prefix termin: <https://example.org/termin/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+termin: a skos:ConceptScheme ;
+    dct:title "Termin"@de ;
+    dct:creator "Joachim Jakob"@de ;
+    dct:created "2021-11-12"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept termin:HT, termin:NT, termin:ET .
+
+termin:HT a skos:Concept ;
+    skos:prefLabel "Haupttermin"@de ;
+    skos:altLabel "HT"@de ;
+    skos:topConceptOf termin: .
+
+termin:NT a skos:Concept ;
+    skos:prefLabel "Nachtermin"@de ;
+    skos:altLabel "NT"@de ;
+    skos:topConceptOf color: .
+
+termin:ET a skos:Concept ;
+    skos:prefLabel "Ersatztermin"@de ;
+    skos:altLabel "ET"@de ;
+    skos:topConceptOf termin: .

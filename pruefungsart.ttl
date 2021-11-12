@@ -8,7 +8,7 @@ pruefungsart: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-12"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept pruefungsart:AP .
+    skos:hasTopConcept pruefungsart:AP, pruefungsart:JA, pruefungsart:VA, pruefungsart:PU, pruefungsart:GW .
 
 pruefungsart:AP a skos:Concept ;
     skos:prefLabel "Abschlussprüfung"@de ;
@@ -76,4 +76,106 @@ pruefungsart:BAP a skos:Concept ;
     skos:broader pruefungsart:AP ;
     skos:inScheme pruefungsart: .
 
+pruefungsart:JA a skos:Concept ;
+    skos:prefLabel "Jahrgangsstufenarbeit"@de ;
+    skos:altLabel "Jgst. Arb."@de, "JA"@de ;
+    skos:narrower pruefungsart:JA6, pruefungsart:JA7, pruefungsart:JA8, pruefungsart:JA9, pruefungsart:JA10 ;
+    skos:topConceptOf pruefungsart: .
+
+pruefungsart:JA6 a skos:Concept ;
+    skos:prefLabel "Jahrgangsstufenarbeit-6"@de ;
+    skos:altLabel "BAP"@de ;
+    skos:broader pruefungsart:JA ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:JA7 a skos:Concept ;
+    skos:prefLabel "Jahrgangsstufenarbeit-7"@de ;
+    skos:altLabel "BAP"@de ;
+    skos:broader pruefungsart:JA ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:JA8 a skos:Concept ;
+    skos:prefLabel "Jahrgangsstufenarbeit-8"@de ;
+    skos:altLabel "BAP"@de ;
+    skos:broader pruefungsart:JA ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:JA9 a skos:Concept ;
+    skos:prefLabel "Jahrgangsstufenarbeit-9"@de ;
+    skos:altLabel "BAP"@de ;
+    skos:broader pruefungsart:JA ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:JA10 a skos:Concept ;
+    skos:prefLabel "Jahrgangsstufenarbeit-10"@de ;
+    skos:altLabel "BAP"@de ;
+    skos:broader pruefungsart:JA ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:VA a skos:Concept ;
+    skos:prefLabel "Vergleichsarbeit"@de ;
+    skos:altLabel "Vergl. Arb."@de, "VA"@de ;
+    skos:narrower pruefungsart:OA2, pruefungsart:VERA3, pruefungsart:VERA8 ;
+    skos:topConceptOf pruefungsart: .
+
+pruefungsart:OA2 a skos:Concept ;
+    skos:prefLabel "Orientierungsarbeit-2"@de ;
+    skos:altLabel "OA2"@de ;
+    skos:broader pruefungsart:VA ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:VERA3 a skos:Concept ;
+    skos:prefLabel "VERA-3"@de ;
+    skos:altLabel "VERA3"@de ;
+    skos:broader pruefungsart:VA ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:VERA8 a skos:Concept ;
+    skos:prefLabel "VERA-8"@de ;
+    skos:altLabel "VERA3"@de ;
+    skos:broader pruefungsart:VA ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:PU a skos:Concept ;
+    skos:prefLabel "Probeunterricht"@de ;
+    skos:altLabel "PU"@de ;
+    skos:narrower pruefungsart:PU4, pruefungsart:PU5, pruefungsart:PU6 ;
+    skos:topConceptOf pruefungsart: .
+
+pruefungsart:PU4 a skos:Concept ;
+    skos:prefLabel "Probeunterricht-4"@de ;
+    skos:altLabel "PU4"@de ;
+    skos:broader pruefungsart:PU ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:PU5 a skos:Concept ;
+    skos:prefLabel "Probeunterricht-5"@de ;
+    skos:altLabel "PU5"@de ;
+    skos:broader pruefungsart:PU ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:PU6 a skos:Concept ;
+    skos:prefLabel "Probeunterricht-6"@de ;
+    skos:altLabel "PU6"@de ;
+    skos:broader pruefungsart:PU ;
+    skos:inScheme pruefungsart: .
+
+
+pruefungsart:GW a skos:Concept ;
+    skos:prefLabel "Grundwissenstest"@de ;
+    skos:altLabel "GW"@de ;
+    skos:narrower pruefungsart:GW7, pruefungsart:GW9 ;
+    skos:topConceptOf pruefungsart: .
+
+pruefungsart:GW7 a skos:Concept ;
+    skos:prefLabel "Grundwissenstest-7"@de ;
+    skos:altLabel "GW7"@de ;
+    skos:broader pruefungsart:GW ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:GW9 a skos:Concept ;
+    skos:prefLabel "Grundwissenstest-9"@de ;
+    skos:altLabel "GW9"@de ;
+    skos:broader pruefungsart:GW ;
+    skos:inScheme pruefungsart: .
 

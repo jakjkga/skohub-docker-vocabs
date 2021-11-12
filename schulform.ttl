@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 schulform: a skos:ConceptScheme ;
-    dct:title "Schulformen"@de ;
+    dct:title "Schulform"@de ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-02"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -188,7 +188,7 @@ schulform:BFSSozPfl a skos:Concept ;
     skos:inScheme schulform: .
 
 schulform:BFSKaufmAss a skos:Concept ;
-    skos:prefLabel "Berufsfachschulen für kaufmännische Assistenten"@de ;
+    skos:prefLabel "Berufsfachschule für kaufmännische Assistenten"@de ;
     skos:altLabel "Berufsfachsch. f. kaufm. Ass."@de ;
     skos:broader schulform:BFS ;
     skos:inScheme schulform: .
@@ -250,13 +250,13 @@ schulform:FSHeilerzPflHi a skos:Concept ;
     skos:inScheme schulform: .
 
 schulform:FSFABFSBSPlus a skos:Concept ;
-    skos:prefLabel "Fachschulen, Fachakademien, Berufsfachschulen, Berufsschule Plus"@de ;
+    skos:prefLabel "Fachschule, Fachakademie, Berufsfachschule, Berufsschule Plus"@de ;
     skos:altLabel "FS, FA, BFS, BS+"@de, "FSFABFSBSPlus"@de ;
     skos:broader schulform:BBS ;
     skos:inScheme schulform: .
 
 schulform:FSFABSPlus a skos:Concept ;
-    skos:prefLabel "Fachschulen, Fachakademien, Berufsschule Plus"@de ;
+    skos:prefLabel "Fachschule, Fachakademie, Berufsschule Plus"@de ;
     skos:altLabel "FS, FA, BS+"@de, "FSFABSPlus"@de ;
     skos:broader schulform:BBS ;
     skos:inScheme schulform: .

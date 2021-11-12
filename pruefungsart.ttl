@@ -64,6 +64,12 @@ pruefungsart:FAP a skos:Concept ;
     skos:broader pruefungsart:AP ;
     skos:inScheme pruefungsart: .
 
+pruefungsart:FAPEP a skos:Concept ;
+    skos:prefLabel "Fachhochschulreife (Ergänzungsprüfung an Fachschule/-akademie, BS+)"@de ;
+    skos:altLabel "Fachabitur Ergänzungsprüfung FS, FAK, BS+"@de, "Fachabi EP FS, FAK, BS+"@de, "FAPEP"@de ;
+    skos:broader pruefungsart:AP ;
+    skos:inScheme pruefungsart: .
+
 pruefungsart:BAP a skos:Concept ;
     skos:prefLabel "Berufliche Abschlussprüfung"@de ;
     skos:altLabel "BAP"@de ;

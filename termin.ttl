@@ -18,7 +18,7 @@ termin:HT a skos:Concept ;
 termin:NT a skos:Concept ;
     skos:prefLabel "Nachtermin"@de ;
     skos:altLabel "NT"@de ;
-    skos:topConceptOf color: .
+    skos:topConceptOf termin: .
 
 termin:ET a skos:Concept ;
     skos:prefLabel "Ersatztermin"@de ;

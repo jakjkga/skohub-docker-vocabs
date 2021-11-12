@@ -77,7 +77,7 @@
   "inScheme": {
     "id": "https://example.org/pruefungsart-with-hierarchy/",
     "title": {
-      "en": "Prüfungsart"
+      "de": "Prüfungsart"
     }
   },
   "topConceptOf": {

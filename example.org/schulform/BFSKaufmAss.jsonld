@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FBFSKaufmAss",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FBFSKaufmAss",
   "prefLabel": {
-    "de": "Berufsfachschulen für kaufmännische Assistenten"
+    "de": "Berufsfachschule für kaufmännische Assistenten"
   },
   "altLabel": {
     "de": [
@@ -20,7 +20,7 @@
   "inScheme": {
     "id": "https://example.org/schulform/",
     "title": {
-      "de": "Schulformen"
+      "de": "Schulform"
     }
   },
   "@context": {

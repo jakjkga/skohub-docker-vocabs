@@ -34,7 +34,7 @@
   "inScheme": {
     "id": "https://example.org/schulform/",
     "title": {
-      "de": "Schulformen"
+      "de": "Schulform"
     }
   },
   "@context": {

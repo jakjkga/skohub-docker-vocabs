@@ -54,20 +54,20 @@
     {
       "id": "https://example.org/schulform/FSFABFSBSPlus",
       "prefLabel": {
-        "de": "Fachschulen, Fachakademien, Berufsfachschulen, Berufsschule Plus"
+        "de": "Fachschule, Fachakademie, Berufsfachschule, Berufsschule Plus"
       }
     },
     {
       "id": "https://example.org/schulform/FSFABSPlus",
       "prefLabel": {
-        "de": "Fachschulen, Fachakademien, Berufsschule Plus"
+        "de": "Fachschule, Fachakademie, Berufsschule Plus"
       }
     }
   ],
   "inScheme": {
     "id": "https://example.org/schulform/",
     "title": {
-      "de": "Schulformen"
+      "de": "Schulform"
     }
   },
   "topConceptOf": {

@@ -81,7 +81,7 @@
     {
       "id": "https://example.org/schulform/BFSKaufmAss",
       "prefLabel": {
-        "de": "Berufsfachschulen für kaufmännische Assistenten"
+        "de": "Berufsfachschule für kaufmännische Assistenten"
       }
     }
   ],
@@ -94,7 +94,7 @@
   "inScheme": {
     "id": "https://example.org/schulform/",
     "title": {
-      "de": "Schulformen"
+      "de": "Schulform"
     }
   },
   "@context": {

@@ -1,0 +1,73 @@
+@prefix pruefungsart: <https://example.org/pruefungsart-with-hierarchy/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pruefungsart: a skos:ConceptScheme ;
+    dct:title "Prüfungsart"@en ;
+    dct:creator "Joachim Jakob"@de ;
+    dct:created "2021-11-12"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept pruefungsart:AP, pruefungsart:JA, pruefungsart:VA, pruefungsart:PU, pruefungsart:GW .
+
+pruefungsart:AP a skos:Concept ;
+    skos:prefLabel "Abschlussprüfung"@de ;
+    skos:altLabel "Abschlusspr."@de, "AP"@de ;
+    skos:narrower pruefungsart:Quali, pruefungsart:MSA, pruefungsart:MSAZERT, pruefungsart:MSABP, pruefungsart:ABIallg, pruefungsart:ABIfachgeb, pruefungsart:FAP, pruefungsart:FAPEP, pruefungsart:BAP ;
+    skos:topConceptOf pruefungsart: .
+
+pruefungsart:Quali a skos:Concept ;
+    skos:prefLabel "Qualifizierter Abschluss"@de ;
+    skos:altLabel "Qualifizierter Abschluss der Mittelschule", "Quali"@de ;
+    skos:broader pruefungsart:AP ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:MSA a skos:Concept ;
+    skos:prefLabel "Mittlerer Schulabschluss"@de ;
+    skos:altLabel "MSA"@de ;
+    skos:broader pruefungsart:AP ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:MSAZERT a skos:Concept ;
+    skos:prefLabel "Mittlerer Schulabschluss (KMK-Zertifikatsprüfung)"@de ;
+    skos:altLabel "MSAZERT"@de ;
+    skos:broader pruefungsart:AP ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:MSABP a skos:Concept ;
+    skos:prefLabel "Mittlerer Schulabschluss (Besondere Prüfung)"@de ;
+    skos:altLabel "MSABP"@de ;
+    skos:broader pruefungsart:AP ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:ABIallg a skos:Concept ;
+    skos:prefLabel "Allgemeine Hochschulreife"@de ;
+    skos:altLabel "Abitur"@de, "Abi"@de, "Allg. Hochschulreife"@de,"ABIallg"@de ;
+    skos:broader pruefungsart:AP ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:ABIEP a skos:Concept ;
+    skos:prefLabel "Allgemeine Hochschulreife (Ergänzungsprüfung FOS-BOS)"@de ;
+    skos:altLabel "Allg. Hochschulreife (EP FOS-BOS)"@de, "Abitur FOS-BOS"@de, "ABIEP"@de ;
+    skos:broader pruefungsart:AP ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:ABIfachgeb a skos:Concept ;
+    skos:prefLabel "Fachgebundene Hochschulreife"@de ;
+    skos:altLabel "Fachgeb. Hochschulreife"@de, "Fachgeb. Abitur"@de, "ABIfachgeb"@de ;
+    skos:broader pruefungsart:AP ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:FAP a skos:Concept ;
+    skos:prefLabel "Fachhochschulreife"@de ;
+    skos:altLabel "Fachabitur"@de, "Fachabi"@de, "FAP"@de ;
+    skos:broader pruefungsart:AP ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:BAP a skos:Concept ;
+    skos:prefLabel "Berufliche Abschlussprüfung"@de ;
+    skos:altLabel "BAP"@de ;
+    skos:broader pruefungsart:AP ;
+    skos:inScheme pruefungsart: .
+
+

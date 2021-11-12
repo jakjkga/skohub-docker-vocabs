@@ -1,0 +1,123 @@
+@prefix pruefungsjahr: <https://example.org/pruefungsjahr/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pruefungsjahr: a skos:ConceptScheme ;
+    dct:title "Prüfungsjahr"@de ;
+    dct:creator "Joachim Jakob"@de ;
+    dct:created "2021-11-12"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept pruefungsjahr:2023, pruefungsjahr:2022 .
+
+pruefungsjahr:2023 a skos:Concept ;
+    skos:prefLabel "2023"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2022 a skos:Concept ;
+    skos:prefLabel "2022"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2021 a skos:Concept ;
+    skos:prefLabel "2021"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2020 a skos:Concept ;
+    skos:prefLabel "2020"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2019 a skos:Concept ;
+    skos:prefLabel "2019"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2018 a skos:Concept ;
+    skos:prefLabel "2018"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2017 a skos:Concept ;
+    skos:prefLabel "2017"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2016 a skos:Concept ;
+    skos:prefLabel "2016"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2015 a skos:Concept ;
+    skos:prefLabel "2015"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2014 a skos:Concept ;
+    skos:prefLabel "2014"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2013 a skos:Concept ;
+    skos:prefLabel "2013"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2012 a skos:Concept ;
+    skos:prefLabel "2012"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2011 a skos:Concept ;
+    skos:prefLabel "2011"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2010 a skos:Concept ;
+    skos:prefLabel "2010"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2009 a skos:Concept ;
+    skos:prefLabel "2009"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2008 a skos:Concept ;
+    skos:prefLabel "2008"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2007 a skos:Concept ;
+    skos:prefLabel "2007"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2006 a skos:Concept ;
+    skos:prefLabel "2006"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2005 a skos:Concept ;
+    skos:prefLabel "2005"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2004 a skos:Concept ;
+    skos:prefLabel "2004"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2003 a skos:Concept ;
+    skos:prefLabel "2003"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2002 a skos:Concept ;
+    skos:prefLabel "2002"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2001 a skos:Concept ;
+    skos:prefLabel "2001"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:2000 a skos:Concept ;
+    skos:prefLabel "2000"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:9999 a skos:Concept ;
+    skos:prefLabel "Muster"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:9998 a skos:Concept ;
+    skos:prefLabel "Maaterial"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:9997 a skos:Concept ;
+    skos:prefLabel "Beispiel"@de ;
+    skos:topConceptOf pruefungsjahr: .
+
+pruefungsjahr:9996 a skos:Concept ;
+    skos:prefLabel "Grundwissen"@de ;
+    skos:topConceptOf pruefungsjahr: .

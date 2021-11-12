@@ -8,7 +8,7 @@ pruefungsjahr: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-12"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept pruefungsjahr:2023, pruefungsjahr:2022 .
+    skos:hasTopConcept pruefungsjahr:9999, pruefungsjahr:9998, pruefungsjahr:9997, pruefungsjahr:9996, pruefungsjahr:2023, pruefungsjahr:2022, pruefungsjahr:2021, pruefungsjahr:2020, pruefungsjahr:2019, pruefungsjahr:2018, pruefungsjahr:2017, pruefungsjahr:2016, pruefungsjahr:2015, pruefungsjahr:2014, pruefungsjahr:2013, pruefungsjahr:2012, pruefungsjahr:2011, pruefungsjahr:2010, pruefungsjahr:2009, pruefungsjahr:2008, pruefungsjahr:2007, pruefungsjahr:2006, pruefungsjahr:2005, pruefungsjahr:2004, pruefungsjahr:2003, pruefungsjahr:2002, pruefungsjahr:2001, pruefungsjahr:2000 .
 
 pruefungsjahr:2023 a skos:Concept ;
     skos:prefLabel "2023"@de ;
@@ -111,7 +111,7 @@ pruefungsjahr:9999 a skos:Concept ;
     skos:topConceptOf pruefungsjahr: .
 
 pruefungsjahr:9998 a skos:Concept ;
-    skos:prefLabel "Maaterial"@de ;
+    skos:prefLabel "Material"@de ;
     skos:topConceptOf pruefungsjahr: .
 
 pruefungsjahr:9997 a skos:Concept ;
@@ -121,3 +121,4 @@ pruefungsjahr:9997 a skos:Concept ;
 pruefungsjahr:9996 a skos:Concept ;
     skos:prefLabel "Grundwissen"@de ;
     skos:topConceptOf pruefungsjahr: .
+

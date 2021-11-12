@@ -1,0 +1,155 @@
+@prefix materialtyp: <https://example.org/materialtyp/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+materialtyp: a skos:ConceptScheme ;
+    dct:title "Materialtyp"@de ;
+    dct:creator "Joachim Jakob"@de ;
+    dct:created "2021-11-12"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept materialtyp:b0001, materialtyp:b0002 .
+
+materialtyp:Abb a skos:Concept ;
+    skos:prefLabel "Abbildungen"@de ;
+    skos:altLabel "Abb"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Aufg a skos:Concept ;
+    skos:prefLabel "Aufgaben"@de ;
+    skos:altLabel "Aufg"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Ausw a skos:Concept ;
+    skos:prefLabel "Auswertung"@de ;
+    skos:altLabel "Ausw"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:BspPruefu a skos:Concept ;
+    skos:prefLabel "Beispielprüfung"@de ;
+    skos:altLabel "BspPruefu"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Diagn a skos:Concept ;
+    skos:prefLabel "Diagnose"@de ;
+    skos:altLabel "Diagn"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:DidHinw a skos:Concept ;
+    skos:prefLabel "Didaktische Hinweise"@de ;
+    skos:altLabel "DidHinw"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Durchf a skos:Concept ;
+    skos:prefLabel "Durchführung"@de ;
+    skos:altLabel "Durchf"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Ergeb a skos:Concept ;
+    skos:prefLabel "Ergebnisse"@de ;
+    skos:altLabel "Ergeb"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Erlaeut a skos:Concept ;
+    skos:prefLabel "Erläuterungen"@de ;
+    skos:altLabel "Erlaeut"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Hinw a skos:Concept ;
+    skos:prefLabel "Hinweise"@de ;
+    skos:altLabel "Hinw"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Hoerbsp a skos:Concept ;
+    skos:prefLabel "Hörbeispiel"@de ;
+    skos:altLabel "Hoerbsp"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Hoerverst a skos:Concept ;
+    skos:prefLabel "Hörverstehen"@de ;
+    skos:altLabel "Hoerverst"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:LPBez a skos:Concept ;
+    skos:prefLabel "Lehrplanbezüge"@de ;
+    skos:altLabel "LPBez"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:LeistTest a skos:Concept ;
+    skos:prefLabel "Leistungstest"@de ;
+    skos:altLabel "LeistTest"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:List a skos:Concept ;
+    skos:prefLabel "Listening"@de ;
+    skos:altLabel "List"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Loes a skos:Concept ;
+    skos:prefLabel "Lösungen"@de ;
+    skos:altLabel "Loes"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Mat a skos:Concept ;
+    skos:prefLabel "Materialien"@de ;
+    skos:altLabel "Mat"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Med a skos:Concept ;
+    skos:prefLabel "Mediation"@de ;
+    skos:altLabel "Med"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:muend a skos:Concept ;
+    skos:prefLabel "mündlich"@de ;
+    skos:altLabel "muend"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:MusterPruef a skos:Concept ;
+    skos:prefLabel "Musterprüfung"@de ;
+    skos:altLabel "MusterPruef"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Noten a skos:Concept ;
+    skos:prefLabel "Notentexte"@de ;
+    skos:altLabel "Noten"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:PruefBsp a skos:Concept ;
+    skos:prefLabel "Prüfungsbeispiel"@de ;
+    skos:altLabel "PruefBsp"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Read a skos:Concept ;
+    skos:prefLabel "Reading"@de ;
+    skos:altLabel "Read"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Text a skos:Concept ;
+    skos:prefLabel "Texte"@de ;
+    skos:altLabel "Text"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Textprod a skos:Concept ;
+    skos:prefLabel "Textproduktion"@de ;
+    skos:altLabel "Textprod"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:TBT a skos:Concept ;
+    skos:prefLabel "Topic based Talk"@de ;
+    skos:altLabel "TBT"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:UebHoerz a skos:Concept ;
+    skos:prefLabel "Übersicht Hörzeiten"@de ;
+    skos:altLabel "UebHoerz"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:Writ a skos:Concept ;
+    skos:prefLabel "Writing"@de ;
+    skos:altLabel "Writ"@de ;
+    skos:topConceptOf materialtyp: .
+
+
+
+

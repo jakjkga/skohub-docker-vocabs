@@ -1,10 +1,10 @@
-@prefix zusatz2: <https://example.org/zusatz2/> .
+@prefix zusatz1: <https://example.org/zusatz1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-zusatz2: a skos:ConceptScheme ;
-    dct:title "Zusatz2"@de ;
+zusatz1: a skos:ConceptScheme ;
+    dct:title "Zusatz1"@de ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-15"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;

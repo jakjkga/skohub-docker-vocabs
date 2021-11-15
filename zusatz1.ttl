@@ -76,8 +76,7 @@ zusatz1:M09ZP1 a skos:Concept ;
 
 zusatz1:M09ZP2 a skos:Concept ;
     skos:prefLabel "M09 Zwischenprüfung 2"@de ;
-    skos:altLabel "zusatz1:M09ZP2 a skos:Concept ;
-"@de ;
+    skos:altLabel "M09ZP2"@de ;
     skos:topConceptOf zusatz1: .
 
 zusatz1:M10 a skos:Concept ;
@@ -255,31 +254,4 @@ zusatz1:Zuhoeren a skos:Concept ;
     skos:prefLabel "Zuhören"@de ;
     skos:altLabel "Zuhoeren"@de ;
     skos:topConceptOf zusatz1: .
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

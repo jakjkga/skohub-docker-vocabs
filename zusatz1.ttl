@@ -255,4 +255,3 @@ zusatz1:Zuhoeren a skos:Concept ;
     skos:altLabel "Zuhoeren"@de ;
     skos:topConceptOf zusatz1: .
 
-

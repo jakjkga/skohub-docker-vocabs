@@ -42,7 +42,7 @@ fach:BetrZus a skos:Concept ;
 
 fach:BW a skos:Concept ;
     skos:prefLabel "Betriebswirtschaft"@de ;
-    skos:altLabel "BW"@de ;
+    skos:altLabel "Betriebswirtschaftslehre"@de, "BW"@de ;
     skos:topConceptOf fach: .
 
 fach:BWSteuKon a skos:Concept ;

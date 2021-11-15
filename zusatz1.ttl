@@ -8,7 +8,7 @@ zusatz1: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-15"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept skos:1, skos:2, skos:A, skos:B, skos:C, skos:D, skos:Fall1, skos:Fall2, skos:G8, skos:G9, skos:Graecum, skos:GK, skos:GruppeA, skos:GruppeB, skos:GruppeC, skos:GruppeD, skos:HP, skos:Latinum, skos:LK, skos:Leistungstest, skos:M09, skos:M09ZP1, skos:M09ZP2, skos:M10, skos:M10ZP1, skos:M10ZP2, skos:Module, skos:Pflichtteil, skos:Praxis, skos:Tag1, skos:Tag2, skos:Tag3, skos:Tag4, skos:Track01, skos:Track02, skos:Track03, skos:Track04, skos:Track05, skos:Track06, skos:Track07, skos:Track08, skos:Track09, skos:Track10, skos:Track11, skos:Track12, skos:Track13, skos:Track14, skos:Track15, skos:Track16, skos:Track17, skos:Track18, skos:Track19, skos:Track20, skos:V1, skos:V2, skos:I, skos:II, skos:Wahlteil, skos:Zuhoeren  .
+    skos:hasTopConcept skos:1, skos:2  .
 
 zusatz1:1 a skos:Concept ;
     skos:prefLabel "1"@de ;
@@ -254,4 +254,5 @@ zusatz1:Zuhoeren a skos:Concept ;
     skos:prefLabel "Zuhören"@de ;
     skos:altLabel "Zuhoeren"@de ;
     skos:topConceptOf zusatz1: .
+
 

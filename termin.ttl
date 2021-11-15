@@ -8,7 +8,7 @@ termin: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-12"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept termin:HT, termin:NT, termin:ET .
+    skos:hasTopConcept termin:HT, termin:NT, termin:ET, termin:EA .
 
 termin:HT a skos:Concept ;
     skos:prefLabel "Haupttermin"@de ;
@@ -24,3 +24,9 @@ termin:ET a skos:Concept ;
     skos:prefLabel "Ersatztermin"@de ;
     skos:altLabel "ET"@de ;
     skos:topConceptOf termin: .
+
+termin:EA a skos:Concept ;
+    skos:prefLabel "Ersatzaufgabe"@de ;
+    skos:altLabel "EA"@de ;
+    skos:topConceptOf termin: .
+

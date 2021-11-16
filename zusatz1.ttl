@@ -8,7 +8,7 @@ zusatz1: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-15"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept zusatz1:1, zusatz1:2 .
+    skos:hasTopConcept zusatz1:1, zusatz1:2, zusatz1:A, zusatz1:B, zusatz1:C, zusatz1:D .
 zusatz1:1 a skos:Concept ;
     skos:prefLabel "1"@de ;
     skos:topConceptOf zusatz1: .
@@ -17,5 +17,19 @@ zusatz1:2 a skos:Concept ;
     skos:prefLabel "2"@de ;
     skos:topConceptOf zusatz1: .
 
+zusatz1:A a skos:Concept ;
+    skos:prefLabel "A"@de ;
+    skos:topConceptOf zusatz1: .
 
+zusatz1:B a skos:Concept ;
+    skos:prefLabel "B"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:C a skos:Concept ;
+    skos:prefLabel "C"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:D a skos:Concept ;
+    skos:prefLabel "D"@de ;
+    skos:topConceptOf zusatz1: .
 

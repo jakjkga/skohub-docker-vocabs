@@ -6,6 +6,12 @@
   "prefLabel": {
     "de": "B"
   },
+  "altLabel": {
+    "de": [
+      "Teil B",
+      "Gruppe B"
+    ]
+  },
   "inScheme": {
     "id": "https://example.org/zusatz1/",
     "title": {

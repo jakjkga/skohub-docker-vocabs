@@ -8,7 +8,8 @@ zusatz1: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-15"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept zusatz1:1, zusatz1:2, zusatz1:A, zusatz1:B, zusatz1:C, zusatz1:D .
+    skos:hasTopConcept zusatz1:1, zusatz1:2, zusatz1:A, zusatz1:B, zusatz1:C, zusatz1:Dzusatz1:Fall1, zusatz1:Fall2, zusatz1:G8, zusatz1:G9, zusatz1:Graecum, zusatz1:GK, zusatz1:GruppeA, zusatz1:GruppeB, zusatz1:GruppeC, zusatz1:GruppeD, zusatz1:HP, zusatz1:Latinum, zusatz1:LK, zusatz1:Leistungstest, zusatz1:M09, zusatz1:M09ZP1, zusatz1:M09ZP2, zusatz1:M10, zusatz1:M10ZP1, zusatz1:M10ZP2, zusatz1:Module, zusatz1:Pflichtteil, zusatz1:Praxis, zusatz1:Tag1, zusatz1:Tag2, zusatz1:Tag3, zusatz1:Tag4, zusatz1:Track01, zusatz1:Track02, zusatz1:Track03, zusatz1:Track04, zusatz1:Track05, zusatz1:Track06, zusatz1:Track07, zusatz1:Track08, zusatz1:Track09, zusatz1:Track10, zusatz1:Track11, zusatz1:Track12, zusatz1:Track13, zusatz1:Track14, zusatz1:Track15, zusatz1:Track16, zusatz1:Track17, zusatz1:Track18, zusatz1:Track19, zusatz1:Track20, zusatz1:V1, zusatz1:V2 .
+
 zusatz1:1 a skos:Concept ;
     skos:prefLabel "1"@de ;
     skos:topConceptOf zusatz1: .
@@ -31,5 +32,207 @@ zusatz1:C a skos:Concept ;
 
 zusatz1:D a skos:Concept ;
     skos:prefLabel "D"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Fall1 a skos:Concept ;
+    skos:prefLabel "Fall 1"@de ;
+    skos:altLabel "Fall1"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Fall2 a skos:Concept ;
+    skos:prefLabel "Fall 2"@de ;
+    skos:altLabel "Fall2"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:G8 a skos:Concept ;
+    skos:prefLabel "G8"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:G9 a skos:Concept ;
+    skos:prefLabel "G9"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Graecum a skos:Concept ;
+    skos:prefLabel "Graecum"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:GK a skos:Concept ;
+    skos:prefLabel "Grundkurs"@de ;
+    skos:altLabel "GK"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Leistungstest a skos:Concept ;
+    skos:prefLabel "Leistungstest"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:M09 a skos:Concept ;
+    skos:prefLabel "M09"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:M09ZP1 a skos:Concept ;
+    skos:prefLabel "M09 Zwischenprüfung 1"@de ;
+    skos:altLabel "M09ZP1"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:M09ZP2 a skos:Concept ;
+    skos:prefLabel "M09 Zwischenprüfung 2"@de ;
+    skos:altLabel "M09ZP2"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:M10 a skos:Concept ;
+    skos:prefLabel "M10"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:M10ZP1 a skos:Concept ;
+    skos:prefLabel "M10 Zwischenprüfung 1"@de ;
+    skos:altLabel "M10ZP1"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:M10ZP2 a skos:Concept ;
+    skos:prefLabel "M10 Zwischenprüfung 2"@de ;
+    skos:altLabel "M10ZP2"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Module a skos:Concept ;
+    skos:prefLabel "Module"@de ;
+    skos:altLabel "Modul"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Pflichtteil a skos:Concept ;
+    skos:prefLabel "Pflichtteil"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Praxis a skos:Concept ;
+    skos:prefLabel "Praxis"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Tag1 a skos:Concept ;
+    skos:prefLabel "Tag 1"@de ;
+    skos:altLabel "Tag1"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Tag2 a skos:Concept ;
+    skos:prefLabel "Tag 2"@de ;
+    skos:altLabel "Tag2"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Tag3 a skos:Concept ;
+    skos:prefLabel "Tag 3"@de ;
+    skos:altLabel "Tag3"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Tag4 a skos:Concept ;
+    skos:prefLabel "Tag 4"@de ;
+    skos:altLabel "Tag4"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track01 a skos:Concept ;
+    skos:prefLabel "Track 1"@de ;
+    skos:altLabel "Track01"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track02 a skos:Concept ;
+    skos:prefLabel "Track 2"@de ;
+    skos:altLabel "Track02"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track03 a skos:Concept ;
+    skos:prefLabel "Track 3"@de ;
+    skos:altLabel "Track03"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track04 a skos:Concept ;
+    skos:prefLabel "Track 4"@de ;
+    skos:altLabel "Track04"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track05 a skos:Concept ;
+    skos:prefLabel "Track 5"@de ;
+    skos:altLabel "Track05"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track06 a skos:Concept ;
+    skos:prefLabel "Track 6"@de ;
+    skos:altLabel "Track06"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track07 a skos:Concept ;
+    skos:prefLabel "Track 7"@de ;
+    skos:altLabel "Track07"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track08 a skos:Concept ;
+    skos:prefLabel "Track 8"@de ;
+    skos:altLabel "Track08"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track09 a skos:Concept ;
+    skos:prefLabel "Track 9"@de ;
+    skos:altLabel "Track09"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track10 a skos:Concept ;
+    skos:prefLabel "Track 10"@de ;
+    skos:altLabel "Track10"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track11 a skos:Concept ;
+    skos:prefLabel "Track 11"@de ;
+    skos:altLabel "Track11"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track12 a skos:Concept ;
+    skos:prefLabel "Track 12"@de ;
+    skos:altLabel "Track12"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track13 a skos:Concept ;
+    skos:prefLabel "Track 13"@de ;
+    skos:altLabel "Track13"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track14 a skos:Concept ;
+    skos:prefLabel "Track 14"@de ;
+    skos:altLabel "Track14"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track15 a skos:Concept ;
+    skos:prefLabel "Track 15"@de ;
+    skos:altLabel "Track15"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track16 a skos:Concept ;
+    skos:prefLabel "Track 16"@de ;
+    skos:altLabel "Track16"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track17 a skos:Concept ;
+    skos:prefLabel "Track 17"@de ;
+    skos:altLabel "Track17"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track18 a skos:Concept ;
+    skos:prefLabel "Track 18"@de ;
+    skos:altLabel "Track18"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track19 a skos:Concept ;
+    skos:prefLabel "Track 19"@de ;
+    skos:altLabel "Track19"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Track20 a skos:Concept ;
+    skos:prefLabel "Track 20"@de ;
+    skos:altLabel "Track20"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:V1 a skos:Concept ;
+    skos:prefLabel "Variante 1"@de ;
+    skos:altLabel "V1"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:V2 a skos:Concept ;
+    skos:prefLabel "Variante 2"@de ;
+    skos:altLabel "V2"@de ;
     skos:topConceptOf zusatz1: .
 

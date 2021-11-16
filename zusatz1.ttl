@@ -8,7 +8,7 @@ zusatz1: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-15"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept zusatz1:1, zusatz1:2, zusatz1:A, zusatz1:B, zusatz1:C, zusatz1:Dzusatz1:Fall1, zusatz1:Fall2, zusatz1:G8, zusatz1:G9, zusatz1:Graecum, zusatz1:GK, zusatz1:GruppeA, zusatz1:GruppeB, zusatz1:GruppeC, zusatz1:GruppeD, zusatz1:HP, zusatz1:Latinum, zusatz1:LK, zusatz1:Leistungstest, zusatz1:M09, zusatz1:M09ZP1, zusatz1:M09ZP2, zusatz1:M10, zusatz1:M10ZP1, zusatz1:M10ZP2, zusatz1:Module, zusatz1:Pflichtteil, zusatz1:Praxis, zusatz1:Tag1, zusatz1:Tag2, zusatz1:Tag3, zusatz1:Tag4, zusatz1:Track01, zusatz1:Track02, zusatz1:Track03, zusatz1:Track04, zusatz1:Track05, zusatz1:Track06, zusatz1:Track07, zusatz1:Track08, zusatz1:Track09, zusatz1:Track10, zusatz1:Track11, zusatz1:Track12, zusatz1:Track13, zusatz1:Track14, zusatz1:Track15, zusatz1:Track16, zusatz1:Track17, zusatz1:Track18, zusatz1:Track19, zusatz1:Track20, zusatz1:V1, zusatz1:V2 .
+    skos:hasTopConcept zusatz1:1, zusatz1:2, zusatz1:A, zusatz1:B, zusatz1:C, zusatz1:D, zusatz1:Fall1, zusatz1:Fall2, zusatz1:G8, zusatz1:G9, zusatz1:Graecum, zusatz1:GK, zusatz1:GruppeA, zusatz1:GruppeB, zusatz1:GruppeC, zusatz1:GruppeD, zusatz1:HP, zusatz1:Latinum, zusatz1:LK, zusatz1:Leistungstest, zusatz1:M09, zusatz1:M09ZP1, zusatz1:M09ZP2, zusatz1:M10, zusatz1:M10ZP1, zusatz1:M10ZP2, zusatz1:Module, zusatz1:Pflichtteil, zusatz1:Praxis, zusatz1:Tag1, zusatz1:Tag2, zusatz1:Tag3, zusatz1:Tag4, zusatz1:Track01, zusatz1:Track02, zusatz1:Track03, zusatz1:Track04, zusatz1:Track05, zusatz1:Track06, zusatz1:Track07, zusatz1:Track08, zusatz1:Track09, zusatz1:Track10, zusatz1:Track11, zusatz1:Track12, zusatz1:Track13, zusatz1:Track14, zusatz1:Track15, zusatz1:Track16, zusatz1:Track17, zusatz1:Track18, zusatz1:Track19, zusatz1:Track20, zusatz1:V1, zusatz1:V2, zusatz1:I, zusatz1:II, zusatz1:Wahlteil, zusatz1:Zuhoeren .
 
 zusatz1:1 a skos:Concept ;
     skos:prefLabel "1"@de ;
@@ -56,9 +56,43 @@ zusatz1:Graecum a skos:Concept ;
     skos:prefLabel "Graecum"@de ;
     skos:topConceptOf zusatz1: .
 
+zusatz1:GruppeA a skos:Concept ;
+    skos:prefLabel "Gruppe A"@de ;
+    skos:altLabel "GruppeA"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:GruppeB a skos:Concept ;
+    skos:prefLabel "Gruppe B"@de ;
+    skos:altLabel "GruppeB"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:GruppeC a skos:Concept ;
+    skos:prefLabel "Gruppe C"@de ;
+    skos:altLabel "GruppeC"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:GruppeD a skos:Concept ;
+    skos:prefLabel "Gruppe D"@de ;
+    skos:altLabel "GruppeD"@de ;
+    skos:topConceptOf zusatz1: .
+
 zusatz1:GK a skos:Concept ;
     skos:prefLabel "Grundkurs"@de ;
     skos:altLabel "GK"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:HP a skos:Concept ;
+    skos:prefLabel "Hauptprüfung"@de ;
+    skos:altLabel "HP"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Latinum a skos:Concept ;
+    skos:prefLabel "Latinum"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:LK a skos:Concept ;
+    skos:prefLabel "Leistungskurs"@de ;
+    skos:altLabel "LK"@de ;
     skos:topConceptOf zusatz1: .
 
 zusatz1:Leistungstest a skos:Concept ;
@@ -235,4 +269,24 @@ zusatz1:V2 a skos:Concept ;
     skos:prefLabel "Variante 2"@de ;
     skos:altLabel "V2"@de ;
     skos:topConceptOf zusatz1: .
+
+zusatz1:I a skos:Concept ;
+    skos:prefLabel "Wahlpflichtfächergruppe I"@de ;
+    skos:altLabel "I"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:II a skos:Concept ;
+    skos:prefLabel "Wahlpflichtfächergruppe II"@de ;
+    skos:altLabel "II"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Wahlteil a skos:Concept ;
+    skos:prefLabel "Wahlteil"@de ;
+    skos:topConceptOf zusatz1: .
+
+zusatz1:Zuhoeren a skos:Concept ;
+    skos:prefLabel "Zuhören"@de ;
+    skos:altLabel "Zuhoeren"@de ;
+    skos:topConceptOf zusatz1: .
+
 

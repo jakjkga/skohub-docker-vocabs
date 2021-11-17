@@ -4,11 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Ffach%2FWE",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Ffach%2FWE",
   "prefLabel": {
-    "de": "Wirtschaft"
+    "de": "Wirtschaftsenglisch"
   },
   "altLabel": {
     "de": [
-      "Wi"
+      "WE"
     ]
   },
   "inScheme": {

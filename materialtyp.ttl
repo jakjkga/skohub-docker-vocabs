@@ -8,7 +8,7 @@ materialtyp: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-12"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept materialtyp:Abb, materialtyp:Aufg, materialtyp:Ausw, materialtyp:BspPruef, materialtyp:Diagn, materialtyp:DidHinw, materialtyp:Durchf, materialtyp:Ergeb, materialtyp:Erlaeut, materialtyp:Hinw, materialtyp:Hoerbsp, materialtyp:Hoerbsp, materialtyp:Hoerverst, materialtyp:LeistTest, materialtyp:List, materialtyp:Loes, materialtyp:LPBez, materialtyp:Mat, materialtyp:Med, materialtyp:muend, materialtyp:MusterPruef, materialtyp:Noten, materialtyp:PruefBsp, materialtyp:Read, materialtyp:TBT, materialtyp:Text, materialtyp:Textprod, materialtyp:UebHoerz, materialtyp:Write .
+    skos:hasTopConcept materialtyp:Abb, materialtyp:Aufg, materialtyp:Ausw, materialtyp:BspPruef, materialtyp:Diagn, materialtyp:DidHinw, materialtyp:Durchf, materialtyp:Ergeb, materialtyp:Erlaeut, materialtyp:Hinw, materialtyp:Hoerbsp, materialtyp:Hoerbsp, materialtyp:Hoerverst, materialtyp:LeistTest, materialtyp:List, materialtyp:Loes, materialtyp:LPBez, materialtyp:MatEinz, materialtyp:MatPak, materialtyp:Med, materialtyp:muend, materialtyp:MusterPruef, materialtyp:Noten, materialtyp:PruefBsp, materialtyp:Read, materialtyp:TBT, materialtyp:Text, materialtyp:Textprod, materialtyp:UebHoerz, materialtyp:Write .
 
 materialtyp:Abb a skos:Concept ;
     skos:prefLabel "Abbildungen"@de ;
@@ -90,9 +90,14 @@ materialtyp:Loes a skos:Concept ;
     skos:altLabel "Loes"@de ;
     skos:topConceptOf materialtyp: .
 
-materialtyp:Mat a skos:Concept ;
-    skos:prefLabel "Materialien"@de ;
-    skos:altLabel "Mat"@de ;
+materialtyp:MatEinz a skos:Concept ;
+    skos:prefLabel "Material (einzeln)"@de ;
+    skos:altLabel "Einzelmaterial"@de, "MatEinz"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:MatPak a skos:Concept ;
+    skos:prefLabel "Materialpaket"@de ;
+    skos:altLabel "Material (Paket)"@de, "MatPak"@de ;
     skos:topConceptOf materialtyp: .
 
 materialtyp:Med a skos:Concept ;

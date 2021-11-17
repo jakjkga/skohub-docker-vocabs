@@ -8,7 +8,7 @@ fach: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-12"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept fach:AWL, fach:APAKP, fach:AuWi, fach:BkRkSk, fach:BL, fach:BetrZus, fach:BW, fach:BWSteuKon, fach:BWLRW, fach:BWLVWL, fach:B, fach:C, fach:Chi, fach:Dst, fach:D, fach:DaZ, fach:DuK, fach:DS, fach:E, fach:EAu, fach:EBTHT, fach:EBueroVerw, fach:EC, fach:EEinzelH, fach:EElektroT, fach:EFinVers, fach:EGG, fach:EGes, fach:EHand, fach:EInd, fach:EInf, fach:EMech, fach:EMechEl, fach:EMed, fach:EMet, fach:EProd, fach:ERe, fach:ETechGest, fach:ETour, fach:EWirtVerw, fach:Ern, fach:Eth, fach:Ev, fach:F, fach:GenPflBerSchw, fach:Geo, fach:G, fach:GF, fach:GS, fach:Gest, fach:GesUntAss, fach:GesWiss, fach:Gr, fach:GruPfl, fach:HausErn, fach:HeilPaed, fach:Inf, fach:IT, fach:IV, fach:IBV, fach:Isr, fach:It, fach:K, fach:KompFeVer, fach:Ku, fach:L, fach:LeGes, fach:LeZeiLeRaumGes, fach:LitPaedMedPaed, fach:M, fach:MCAS, fach:MT, fach:MTCAS, fach:MNT, fach:MnE, fach:MedPsy, fach:Mu, fach:Musp, fach:NT, fach:OekGes, fach:PaedPsy, fach:PaedPsyHeilpaed, fach:Persfuehr, fach:PflanKen, fach:PflanProd, fach:PflanVerk, fach:PuB, fach:Ph, fach:PolGesBk, fach:PolGesSoz, fach:Psy, fach:RW, fach:Rk, fach:RV, fach:Ru, fach:SaeugB, fach:SkBk, fach:Sk, fach:SL, fach:Sow, fach:Sp, fach:S, fach:TierProd, fach:UebU, fach:VerkBer, fach:VersL, fach:VWL, fach:We, fach:Wi, fach:WE, fach:WR, fach:WiSo .
+    skos:hasTopConcept fach:AWL, fach:APAKP, fach:AuWi, fach:BkRkSk, fach:BL, fach:BetrZus, fach:BW, fach:BWSteuKon, fach:BWLRW, fach:BWLVWL, fach:B, fach:C, fach:Chi, fach:Dst, fach:D, fach:DaZ, fach:DuK, fach:DS, fach:E, fach:EAu, fach:EBTHT, fach:EBueroVerw, fach:EC, fach:EEinzelH, fach:EElektroT, fach:EFinVers, fach:EGG, fach:EGes, fach:EHand, fach:EInd, fach:EInf, fach:EMech, fach:EMechEl, fach:EMed, fach:EMet, fach:EProd, fach:ERe, fach:ETechGest, fach:ETour, fach:EWirtVerw, fach:Ern, fach:Eth, fach:Ev, fach:F, fach:GenPflBerSchw, fach:Geo, fach:G, fach:GF, fach:GS, fach:Gest, fach:GesUntAss, fach:GesWiss, fach:Gr, fach:GruPfl, fach:HausErn, fach:HeilPaed, fach:Inf, fach:IT, fach:IV, fach:IBV, fach:Isr, fach:It, fach:K, fach:KompFeVer, fach:Ku, fach:L, fach:LeGes, fach:LeZeiLeRaumGes, fach:LitPaedMedPaed, fach:M, fach:MCAS, fach:MT, fach:MTCAS, fach:MNT, fach:MnE, fach:MedPsy, fach:Mu, fach:Musp, fach:NT, fach:OekGes, fach:PaedPsy, fach:PaedPsyHeilpaed, fach:Persfuehr, fach:PflanKen, fach:PflanProd, fach:PflanVerk, fach:PuB, fach:Ph, fach:PolGesBk, fach:PolGesSoz, fach:Psy, fach:RW, fach:Rk, fach:RV, fach:Ru, fach:SaeugB, fach:SkBk, fach:Sk, fach:SkSoz, fach:SL, fach:Sow, fach:Sp, fach:S, fach:TierProd, fach:UebU, fach:VerkBer, fach:VersL, fach:VWL, fach:We, fach:Wi, fach:WE, fach:WR, fach:WiSo .
 
 fach:AWL a skos:Concept ;
     skos:prefLabel "Allgemeine Wirtschaftslehre"@de ;
@@ -498,6 +498,11 @@ fach:SkBk a skos:Concept ;
 fach:Sk a skos:Concept ;
     skos:prefLabel "Sozialkunde"@de ;
     skos:altLabel "Sk"@de ;
+    skos:topConceptOf fach: .
+
+fach:SkSoz a skos:Concept ;
+    skos:prefLabel "Sozialkunde und Soziologie"@de ;
+    skos:altLabel "SkSoz"@de ;
     skos:topConceptOf fach: .
 
 fach:SL a skos:Concept ;

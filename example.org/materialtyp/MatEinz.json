@@ -1,14 +1,15 @@
 {
-  "id": "https://example.org/materialtyp/Mat",
+  "id": "https://example.org/materialtyp/MatEinz",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fmaterialtyp%2FMat",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fmaterialtyp%2FMat",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fmaterialtyp%2FMatEinz",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fmaterialtyp%2FMatEinz",
   "prefLabel": {
-    "de": "Materialien"
+    "de": "Material (einzeln)"
   },
   "altLabel": {
     "de": [
-      "Mat"
+      "Einzelmaterial",
+      "MatEinz"
     ]
   },
   "inScheme": {

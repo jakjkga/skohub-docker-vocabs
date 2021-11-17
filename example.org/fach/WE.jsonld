@@ -1,14 +1,14 @@
 {
-  "id": "https://example.org/fach/Wi",
+  "id": "https://example.org/fach/WE",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Ffach%2FWi",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Ffach%2FWi",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Ffach%2FWE",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Ffach%2FWE",
   "prefLabel": {
-    "de": "Wirtschaftsenglisch"
+    "de": "Wirtschaft"
   },
   "altLabel": {
     "de": [
-      "WE"
+      "Wi"
     ]
   },
   "inScheme": {

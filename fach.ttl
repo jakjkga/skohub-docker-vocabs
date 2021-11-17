@@ -412,7 +412,7 @@ fach:PaedPsy a skos:Concept ;
 
 fach:PaedPsyHeilpaed a skos:Concept ;
     skos:prefLabel "Pädagogik/Psychologie/Heilpädagogik"@de ;
-    skos:altLabel "PaedPsyHeilpaed"@de ;
+    skos:altLabel "Pädagogik/Heilpädagogik/Psychologie"@de, "PaedPsyHeilpaed"@de ;
     skos:topConceptOf fach: .
 
 fach:Persfuehr a skos:Concept ;

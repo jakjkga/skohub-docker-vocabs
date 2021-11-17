@@ -536,13 +536,13 @@ fach:We a skos:Concept ;
     skos:topConceptOf fach: .
 
 fach:Wi a skos:Concept ;
-    skos:prefLabel "Wirtschaftsenglisch"@de ;
-    skos:altLabel "WE"@de ;
+    skos:prefLabel "Wirtschaft"@de ;
+    skos:altLabel "Wi"@de ;
     skos:topConceptOf fach: .
 
 fach:WE a skos:Concept ;
-    skos:prefLabel "Wirtschaft"@de ;
-    skos:altLabel "Wi"@de ;
+    skos:prefLabel "Wirtschaftsenglisch"@de ;
+    skos:altLabel "WE"@de ;
     skos:topConceptOf fach: .
 
 fach:WR a skos:Concept ;

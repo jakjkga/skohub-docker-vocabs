@@ -1,14 +1,14 @@
 {
-  "id": "https://example.org/fach/WkSk",
+  "id": "https://example.org/fach/WiSo",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Ffach%2FWkSk",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Ffach%2FWkSk",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Ffach%2FWiSo",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Ffach%2FWiSo",
   "prefLabel": {
     "de": "Wirtschafts- und Sozialkunde"
   },
   "altLabel": {
     "de": [
-      "WkSk"
+      "WiSo"
     ]
   },
   "inScheme": {

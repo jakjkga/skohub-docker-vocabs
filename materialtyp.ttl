@@ -8,7 +8,7 @@ materialtyp: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-12"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept materialtyp:Abb, materialtyp:Aufg, materialtyp:Ausw, materialtyp:BspPruef, materialtyp:Diagn, materialtyp:DidHinw, materialtyp:Durchf, materialtyp:Ergeb, materialtyp:Erlaeut, materialtyp:Hinw, materialtyp:Hoerbsp, materialtyp:Hoerbsp, materialtyp:Hoerverst, materialtyp:LeistTest, materialtyp:List, materialtyp:Loes, materialtyp:LPBez, materialtyp:MatEinz, materialtyp:MatPak, materialtyp:Med, materialtyp:muend, materialtyp:MusterPruef, materialtyp:Noten, materialtyp:PruefBsp, materialtyp:Read, materialtyp:TBT, materialtyp:Text, materialtyp:Textprod, materialtyp:UebHoerz, materialtyp:Write .
+    skos:hasTopConcept materialtyp:Abb, materialtyp:Aufg, materialtyp:Ausw, materialtyp:BspPruef, materialtyp:Diagn, materialtyp:DidHinw, materialtyp:Durchf, materialtyp:Ergeb, materialtyp:Erlaeut, materialtyp:Hinw, materialtyp:Hoerbsp, materialtyp:Hoerbsp, materialtyp:Hoerverst, materialtyp:LeistTest, materialtyp:Loes, materialtyp:LPBez, materialtyp:MatEinz, materialtyp:MatPak, materialtyp:Med, materialtyp:muend, materialtyp:MusterPruef, materialtyp:Noten, materialtyp:PruefBsp, materialtyp:Read, materialtyp:TBT, materialtyp:Text, materialtyp:Textprod, materialtyp:UebHoerz, materialtyp:Write .
 
 materialtyp:Abb a skos:Concept ;
     skos:prefLabel "Abbildungen"@de ;
@@ -67,7 +67,7 @@ materialtyp:Hoerbsp a skos:Concept ;
 
 materialtyp:Hoerverst a skos:Concept ;
     skos:prefLabel "Hörverstehen"@de ;
-    skos:altLabel "Hoerverst"@de ;
+    skos:altLabel "Listening"@de, "Hoerverst"@de ;
     skos:topConceptOf materialtyp: .
 
 materialtyp:LPBez a skos:Concept ;
@@ -78,11 +78,6 @@ materialtyp:LPBez a skos:Concept ;
 materialtyp:LeistTest a skos:Concept ;
     skos:prefLabel "Leistungstest"@de ;
     skos:altLabel "LeistTest"@de ;
-    skos:topConceptOf materialtyp: .
-
-materialtyp:List a skos:Concept ;
-    skos:prefLabel "Listening"@de ;
-    skos:altLabel "List"@de ;
     skos:topConceptOf materialtyp: .
 
 materialtyp:Loes a skos:Concept ;

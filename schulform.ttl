@@ -147,7 +147,7 @@ schulform:BFSErnVers a skos:Concept ;
 
 schulform:BFSFremdSpr a skos:Concept ;
     skos:prefLabel "Berufsfachschule für Fremdsprachenberufe"@de ;
-    skos:altLabel "Berufsfachsch. f. Fremdspr."@de ;
+    skos:altLabel "Berufsfachsch. f. Fremdspr."@de, "Berufsfachschule für Eurokorrespondenten"@de, "Berufsfachschule für Euro-Korrespondenten"@de ;
     skos:broader schulform:BFS ;
     skos:inScheme schulform: .
 

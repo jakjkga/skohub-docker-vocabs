@@ -23,6 +23,12 @@
       "prefLabel": {
         "de": "Fachschule für Heilerziehungspflegehilfe"
       }
+    },
+    {
+      "id": "https://example.org/schulform/FSGSKiBetr",
+      "prefLabel": {
+        "de": "Fachschule für Grundschulkindbetreuung"
+      }
     }
   ],
   "broader": {

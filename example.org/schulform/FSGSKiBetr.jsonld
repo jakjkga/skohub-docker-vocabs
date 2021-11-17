@@ -1,40 +1,21 @@
 {
-  "id": "https://example.org/schulform/FS",
+  "id": "https://example.org/schulform/FSGSKiBetr",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FFS",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FFS",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FFSGSKiBetr",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fschulform%2FFSGSKiBetr",
   "prefLabel": {
-    "de": "Fachschule"
+    "de": "Fachschule für Grundschulkindbetreuung"
   },
   "altLabel": {
     "de": [
-      "Fachsch."
+      "FS für Grundschulkindbetr.",
+      "FSGSKiBetr"
     ]
   },
-  "narrower": [
-    {
-      "id": "https://example.org/schulform/FSHeilerzPfl",
-      "prefLabel": {
-        "de": "Fachschule für Heilerziehungspflege"
-      }
-    },
-    {
-      "id": "https://example.org/schulform/FSHeilerzPflHi",
-      "prefLabel": {
-        "de": "Fachschule für Heilerziehungspflegehilfe"
-      }
-    },
-    {
-      "id": "https://example.org/schulform/FSGSKiBetr",
-      "prefLabel": {
-        "de": "Fachschule für Grundschulkindbetreuung"
-      }
-    }
-  ],
   "broader": {
-    "id": "https://example.org/schulform/BBS",
+    "id": "https://example.org/schulform/FS",
     "prefLabel": {
-      "de": "Berufliche Schule"
+      "de": "Fachschule"
     }
   },
   "inScheme": {

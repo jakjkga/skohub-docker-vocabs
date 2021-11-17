@@ -422,7 +422,7 @@ fach:PaedPsyHeilpaed a skos:Concept ;
 
 fach:Persfuehr a skos:Concept ;
     skos:prefLabel "Personalführung"@de ;
-    skos:altLabel "Persfuehr"@de ;
+    skos:altLabel "Persfuehr"@de, "Personalführung mit Berufs- und Arbeitspädagogik"@de ;
     skos:topConceptOf fach: .
 
 fach:PflanKen a skos:Concept ;

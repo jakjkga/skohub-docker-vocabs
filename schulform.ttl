@@ -234,18 +234,24 @@ schulform:FS a skos:Concept ;
     skos:prefLabel "Fachschule"@de ;
     skos:altLabel "Fachsch."@de ;
     skos:broader schulform:BBS ;
-    skos:narrower schulform:FSHeilerzPfl, schulform:FSHeilerzPflHi ;
+    skos:narrower schulform:FSHeilerzPfl, schulform:FSHeilerzPflHi, schulform:FSGSKiBetr ;
     skos:inScheme schulform: .
 
 schulform:FSHeilerzPfl a skos:Concept ;
     skos:prefLabel "Fachschule für Heilerziehungspflege"@de ;
-    skos:altLabel "FS Heilerziehungspflege."@de, "FSHeilerzPfl"@de ;
+    skos:altLabel "FS Heilerziehungspflege"@de, "FSHeilerzPfl"@de ;
     skos:broader schulform:FS ;
     skos:inScheme schulform: .
 
 schulform:FSHeilerzPflHi a skos:Concept ;
     skos:prefLabel "Fachschule für Heilerziehungspflegehilfe"@de ;
     skos:altLabel "FS für Heilerziehungspflegehilfe"@de, "FSHeilerzPflHi"@de ;
+    skos:broader schulform:FS ;
+    skos:inScheme schulform: .
+
+schulform:FSGSKiBetr a skos:Concept ;
+    skos:prefLabel "Fachschule für Grundschulkindbetreuung"@de ;
+    skos:altLabel "FS für Grundschulkindbetr."@de, "FSGSKiBetr"@de ;
     skos:broader schulform:FS ;
     skos:inScheme schulform: .
 

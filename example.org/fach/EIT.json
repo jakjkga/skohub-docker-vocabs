@@ -1,14 +1,14 @@
 {
-  "id": "https://example.org/fach/EInf",
+  "id": "https://example.org/fach/EIT",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Ffach%2FEInf",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Ffach%2FEInf",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Ffach%2FEIT",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Ffach%2FEIT",
   "prefLabel": {
     "de": "Englisch - Informationstechnik"
   },
   "altLabel": {
     "de": [
-      "EInf"
+      "EIT"
     ]
   },
   "inScheme": {

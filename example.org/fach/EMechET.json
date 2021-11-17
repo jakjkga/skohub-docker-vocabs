@@ -1,14 +1,14 @@
 {
-  "id": "https://example.org/fach/EMechEl",
+  "id": "https://example.org/fach/EMechET",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Ffach%2FEMechEl",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Ffach%2FEMechEl",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Ffach%2FEMechET",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Ffach%2FEMechET",
   "prefLabel": {
     "de": "Englisch - Mechatronik und Elektrotechnik"
   },
   "altLabel": {
     "de": [
-      "EMechEl"
+      "EMechET"
     ]
   },
   "inScheme": {

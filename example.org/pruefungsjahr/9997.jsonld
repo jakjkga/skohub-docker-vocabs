@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fpruefungsjahr%2F9997",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fpruefungsjahr%2F9997",
   "prefLabel": {
-    "de": "Beispiel"
+    "de": "Material"
   },
   "inScheme": {
     "id": "https://example.org/pruefungsjahr/",

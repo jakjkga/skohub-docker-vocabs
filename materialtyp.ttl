@@ -8,7 +8,7 @@ materialtyp: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-12"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept materialtyp:Abb, materialtyp:Aufg, materialtyp:AufgBlack, materialtyp:Ausw, materialtyp:BspPruef, materialtyp:Diagn, materialtyp:DidHinw, materialtyp:Durchf, materialtyp:Ergeb, materialtyp:Erlaeut, materialtyp:Hinw, materialtyp:Hoerbsp, materialtyp:Hoerbsp, materialtyp:Hoerverst, materialtyp:LeistTest, materialtyp:Loes, materialtyp:LPBez, materialtyp:MatEinz, materialtyp:MatPak, materialtyp:Med, materialtyp:muend, materialtyp:MusterPruef, materialtyp:Noten, materialtyp:PruefBsp, materialtyp:Read, materialtyp:TBT, materialtyp:Text, materialtyp:Textprod, materialtyp:UebHoerz, materialtyp:Write .
+    skos:hasTopConcept materialtyp:Abb, materialtyp:Aufg, materialtyp:AufgBlack, materialtyp:Ausw, materialtyp:BspPruef, materialtyp:Diagn, materialtyp:DidHinw, materialtyp:Durchf, materialtyp:Ergeb, materialtyp:Erlaeut, materialtyp:Hinw, materialtyp:Hoerbsp, materialtyp:Hoerbsp, materialtyp:Hoerverst, materialtyp:LeistTest, materialtyp:Loes, materialtyp:LoesBlack, materialtyp:LPBez, materialtyp:MatEinz, materialtyp:MatPak, materialtyp:Med, materialtyp:muend, materialtyp:MusterPruef, materialtyp:Noten, materialtyp:PruefBsp, materialtyp:Read, materialtyp:TBT, materialtyp:Text, materialtyp:Textprod, materialtyp:UebHoerz, materialtyp:Write .
 
 materialtyp:Abb a skos:Concept ;
     skos:prefLabel "Abbildungen"@de ;
@@ -88,6 +88,11 @@ materialtyp:LeistTest a skos:Concept ;
 materialtyp:Loes a skos:Concept ;
     skos:prefLabel "Lösungen"@de ;
     skos:altLabel "Loes"@de ;
+    skos:topConceptOf materialtyp: .
+
+materialtyp:LoesBlack a skos:Concept ;
+    skos:prefLabel "Lösungen (geschwärzt)"@de ;
+    skos:altLabel "LoesBlack"@de ;
     skos:topConceptOf materialtyp: .
 
 materialtyp:MatEinz a skos:Concept ;

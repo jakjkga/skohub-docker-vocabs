@@ -107,15 +107,15 @@ pruefungsjahr:2000 a skos:Concept ;
     skos:topConceptOf pruefungsjahr: .
 
 pruefungsjahr:9999 a skos:Concept ;
-    skos:prefLabel "Muster"@de ;
+    skos:prefLabel "Beispiel"@de ;
     skos:topConceptOf pruefungsjahr: .
 
 pruefungsjahr:9998 a skos:Concept ;
-    skos:prefLabel "Material"@de ;
+    skos:prefLabel "Muster"@de ;
     skos:topConceptOf pruefungsjahr: .
 
 pruefungsjahr:9997 a skos:Concept ;
-    skos:prefLabel "Beispiel"@de ;
+    skos:prefLabel "Material"@de ;
     skos:topConceptOf pruefungsjahr: .
 
 pruefungsjahr:9996 a skos:Concept ;

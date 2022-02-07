@@ -8,7 +8,7 @@ zusatz1: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-15"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept zusatz1:1, zusatz1:2, zusatz1:A, zusatz1:B, zusatz1:C, zusatz1:D, zusatz1:Fall1, zusatz1:Fall2, zusatz1:G8, zusatz1:G9, zusatz1:Graecum, zusatz1:GK, zusatz1:HP, zusatz1:Latinum, zusatz1:LK, zusatz1:Leistungstest, zusatz1:M09, zusatz1:M09ZP1, zusatz1:M09ZP2, zusatz1:M10, zusatz1:M10ZP1, zusatz1:M10ZP2, zusatz1:Module, zusatz1:Praxis, zusatz1:Tag1, zusatz1:Tag2, zusatz1:Tag3, zusatz1:Tag4, zusatz1:Track01, zusatz1:Track02, zusatz1:Track03, zusatz1:Track04, zusatz1:Track05, zusatz1:Track06, zusatz1:Track07, zusatz1:Track08, zusatz1:Track09, zusatz1:Track10, zusatz1:Track11, zusatz1:Track12, zusatz1:Track13, zusatz1:Track14, zusatz1:Track15, zusatz1:Track16, zusatz1:Track17, zusatz1:Track18, zusatz1:Track19, zusatz1:Track20, zusatz1:V1, zusatz1:V2, zusatz1:I, zusatz1:II .
+    skos:hasTopConcept zusatz1:1, zusatz1:2, zusatz1:A, zusatz1:B, zusatz1:C, zusatz1:D, zusatz1:Fall1, zusatz1:Fall2, zusatz1:G8, zusatz1:G9, zusatz1:Graecum, zusatz1:GK, zusatz1:HP, zusatz1:Latinum, zusatz1:LK, zusatz1:Leistungstest, zusatz1:M09, zusatz1:M09ZP1, zusatz1:M09ZP2, zusatz1:M10, zusatz1:M10ZP1, zusatz1:M10ZP2, zusatz1:Module, zusatz1:Praxis, zusatz1:Tag1, zusatz1:Tag2, zusatz1:Tag3, zusatz1:Tag4, zusatz1:Track01, zusatz1:Track02, zusatz1:Track03, zusatz1:Track04, zusatz1:Track05, zusatz1:Track06, zusatz1:Track07, zusatz1:Track08, zusatz1:Track09, zusatz1:Track10, zusatz1:Track11, zusatz1:Track12, zusatz1:Track13, zusatz1:Track14, zusatz1:Track15, zusatz1:Track16, zusatz1:Track17, zusatz1:Track18, zusatz1:Track19, zusatz1:Track20, zusatz1:V1, zusatz1:V2, zusatz1:I, zusatz1:II, zusatz1:ZP .
 
 zusatz1:1 a skos:Concept ;
     skos:prefLabel "1"@de ;
@@ -264,5 +264,8 @@ zusatz1:II a skos:Concept ;
     skos:altLabel "II"@de ;
     skos:topConceptOf zusatz1: .
 
-
+zusatz1:ZP a skos:Concept ;
+    skos:prefLabel "Zwischenprüfung"@de ;
+    skos:altLabel "ZP"@de ;
+    skos:topConceptOf zusatz1: .
 

@@ -332,7 +332,7 @@ fach:KompFeVer a skos:Concept ;
 
 fach:KompPflAPrV a skos:Concept ;
     skos:prefLabel "Prüfung der Kompetenzen nach Anlage 1 PflAPrV"@de ;
-    skos:altLabel "KompPflAPrV"@de, "Kompetenzen nach Pflegeberufe-Ausbildungs- und -Prüfungsverordnung" ;
+    skos:altLabel "KompPflAPrV"@de, "Kompetenzen nach Pflegeberufe-Ausbildungs- und -Prüfungsverordnung"@de ;
     skos:topConceptOf fach: .
 
 fach:Ku a skos:Concept ;

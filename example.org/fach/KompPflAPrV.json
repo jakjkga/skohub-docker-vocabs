@@ -1,14 +1,14 @@
 {
-  "id": "https://example.org/fach/DaF",
+  "id": "https://example.org/fach/KompPflAPrV",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Ffach%2FDaF",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Ffach%2FDaF",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Ffach%2FKompPflAPrV",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Ffach%2FKompPflAPrV",
   "prefLabel": {
-    "de": "Deutsch als Fremdsprache (DaF)"
+    "de": "Prüfung der Kompetenzen nach Anlage 1 PflAPrV"
   },
   "altLabel": {
     "de": [
-      "DaF"
+      "KompPflAPrV"
     ]
   },
   "inScheme": {

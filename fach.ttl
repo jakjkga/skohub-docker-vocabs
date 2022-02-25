@@ -15,7 +15,7 @@ fach: a skos:ConceptScheme ;
 fach:AWL a skos:Concept ;
     skos:prefLabel "Allgemeine Wirtschaftslehre"@de ;
     skos:altLabel "AWL"@de ;
-    skos:related <http://w3id.org/openeduhub/vocabs/discipline/700> ;
+    #skos:related <http://w3id.org/openeduhub/vocabs/discipline/700> ;
     skos:topConceptOf fach: .
 
 fach:APAKP a skos:Concept ;

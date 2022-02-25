@@ -2,6 +2,8 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix eafkey: <http://w3id.org/openeduhub/vocabs/discipline/> .
+@prefix eafsys: <http://w3id.org/openeduhub/vocabs/discipline/> .
 
 fach: a skos:ConceptScheme ;
     dct:title "Fach"@de ;
@@ -13,6 +15,7 @@ fach: a skos:ConceptScheme ;
 fach:AWL a skos:Concept ;
     skos:prefLabel "Allgemeine Wirtschaftslehre"@de ;
     skos:altLabel "AWL"@de ;
+    skos:related eafsys:700 ;
     skos:topConceptOf fach: .
 
 fach:APAKP a skos:Concept ;
@@ -87,7 +90,8 @@ fach:D a skos:Concept ;
 
 fach:DaZ a skos:Concept ;
     skos:prefLabel "Deutsch als Zweitsprache (DaZ)"@de ;
-    skos:altLabel "DaZ"@de ;
+    skos:altLabel "DaZ"@de, "Deutsch als Fremdsprache (DaF)"@de, "DaF"@de ;
+     skos:related eafsys:12005 ;
     skos:topConceptOf fach: .
 
 fach:DuK a skos:Concept ;
@@ -213,21 +217,25 @@ fach:EWirtVerw a skos:Concept ;
 fach:Ern a skos:Concept ;
     skos:prefLabel "Ernährung"@de ;
     skos:altLabel "Ern"@de ;
+    skos:related eafsys:04006 ;
     skos:topConceptOf fach: .
 
 fach:Eth a skos:Concept ;
     skos:prefLabel "Ethik"@de ;
     skos:altLabel "Eth"@de ;
+    skos:related eafsys:160 ;
     skos:topConceptOf fach: .
 
 fach:Ev a skos:Concept ;
     skos:prefLabel "Evangelische Religionslehre"@de ;
     skos:altLabel "Religionslehre und Religionspädagogik (evangelisch)"@de, "Religionspädagogik (evangel.)"@de, "Ev"@de ;
+    skos:related eafsys:520 ;
     skos:topConceptOf fach: .
 
 fach:F a skos:Concept ;
     skos:prefLabel "Französisch"@de ;
     skos:altLabel "F"@de ;
+    skos:related eafsys:20002 ;
     skos:topConceptOf fach: .
 
 fach:GenPflBerSchw a skos:Concept ;
@@ -238,6 +246,7 @@ fach:GenPflBerSchw a skos:Concept ;
 fach:Geo a skos:Concept ;
     skos:prefLabel "Geographie"@de ;
     skos:altLabel "Geografie"@de, "Geo"@de ;
+    skos:related eafsys:220 ;
     skos:topConceptOf fach: .
 
 fach:G a skos:Concept ;
@@ -283,6 +292,7 @@ fach:GruPfl a skos:Concept ;
 fach:HausErn a skos:Concept ;
     skos:prefLabel "Haushalt und Ernährung"@de ;
     skos:altLabel "HausErn"@de, "ErnGes"@de, "Ernährung und Gesundheit"@de ;
+    skos:related eafsys:04006 ;
     skos:topConceptOf fach: .
 
 fach:HeilPaed a skos:Concept ;
@@ -323,6 +333,7 @@ fach:It a skos:Concept ;
 fach:K a skos:Concept ;
     skos:prefLabel "Katholische Religionslehre"@de ;
     skos:altLabel "Religionslehre und Religionspädagogik (katholisch)"@de, "Religionspädagogik (kathol.)"@de, "K"@de ;
+    skos:related eafsys:520 ;
     skos:topConceptOf fach: .
 
 fach:KompFeVer a skos:Concept ;
@@ -433,16 +444,19 @@ fach:Persfuehr a skos:Concept ;
 fach:PflanKen a skos:Concept ;
     skos:prefLabel "Pflanzenkenntnisse"@de ;
     skos:altLabel "PflanKen"@de ;
+    skos:related eafsys:04001 ;
     skos:topConceptOf fach: .
 
 fach:PflanProd a skos:Concept ;
     skos:prefLabel "Pflanzenproduktion"@de ;
     skos:altLabel "PflanProd"@de ;
+    skos:related eafsys:04001 ;
     skos:topConceptOf fach: .
 
 fach:PflanVerk a skos:Concept ;
     skos:prefLabel "Pflanzenverkauf"@de ;
     skos:altLabel "PflanVerk"@de ;
+    skos:related eafsys:04001 ;
     skos:topConceptOf fach: .
 
 fach:PuB a skos:Concept ;
@@ -453,21 +467,25 @@ fach:PuB a skos:Concept ;
 fach:Ph a skos:Concept ;
     skos:prefLabel "Physik"@de ;
     skos:altLabel "Ph"@de ;
+    skos:related eafsys:460 ;
     skos:topConceptOf fach: .
 
 fach:PolGesBk a skos:Concept ;
     skos:prefLabel "Politik, Gesellschaft und Berufskunde"@de ;
     skos:altLabel "PolGesBk"@de ;
+    skos:related eafsys:480 ;
     skos:topConceptOf fach: .
 
 fach:PolGesSoz a skos:Concept ;
     skos:prefLabel "Politik und Gesellschaft sowie Soziologie"@de ;
     skos:altLabel "PolGesSoz"@de ;
+    skos:related eafsys:480 ;
     skos:topConceptOf fach: .
 
 fach:Psy a skos:Concept ;
     skos:prefLabel "Psychologie"@de ;
     skos:altLabel "Psy"@de ;
+    skos:related eafsys:510 ;
     skos:topConceptOf fach: .
 
 fach:RW a skos:Concept ;
@@ -488,6 +506,7 @@ fach:RV a skos:Concept ;
 fach:Ru a skos:Concept ;
     skos:prefLabel "Russisch"@de ;
     skos:altLabel "Ru"@de ;
+    skos:related eafsys:20006 ;
     skos:topConceptOf fach: .
 
 fach:SaeugB a skos:Concept ;
@@ -523,16 +542,19 @@ fach:Sow a skos:Concept ;
 fach:Sp a skos:Concept ;
     skos:prefLabel "Spanisch"@de ;
     skos:altLabel "Sp"@de ;
+    skos:related eafsys:20007 ;
     skos:topConceptOf fach: .
 
 fach:S a skos:Concept ;
     skos:prefLabel "Sport"@de ;
     skos:altLabel "S"@de ;
+    skos:related eafsys:600 ;
     skos:topConceptOf fach: .
 
 fach:TierProd a skos:Concept ;
     skos:prefLabel "Tierproduktion"@de ;
     skos:altLabel "TierProd"@de ;
+    skos:related eafsys:04001 ;
     skos:topConceptOf fach: .
 
 fach:UebU a skos:Concept ;
@@ -563,6 +585,7 @@ fach:We a skos:Concept ;
 fach:Wi a skos:Concept ;
     skos:prefLabel "Wirtschaft"@de ;
     skos:altLabel "Wi"@de ;
+    skos:related eafsys:700 ;
     skos:topConceptOf fach: .
 
 fach:WE a skos:Concept ;
@@ -578,5 +601,5 @@ fach:WR a skos:Concept ;
 fach:WiSo a skos:Concept ;
     skos:prefLabel "Wirtschafts- und Sozialkunde"@de ;
     skos:altLabel "WiSo"@de ;
+    skos:related eafsys:04013 ;
     skos:topConceptOf fach: .
-

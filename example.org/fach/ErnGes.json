@@ -1,14 +1,14 @@
 {
-  "id": "https://example.org/fach/HausErn",
+  "id": "https://example.org/fach/ErnGes",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Ffach%2FHausErn",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Ffach%2FHausErn",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Ffach%2FErnGes",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Ffach%2FErnGes",
   "prefLabel": {
-    "de": "Haushalt und Ernährung"
+    "de": "Ernährung und Gesundheit"
   },
   "altLabel": {
     "de": [
-      "HausErn"
+      "ErnGes"
     ]
   },
   "inScheme": {

@@ -222,7 +222,7 @@ fach:Ern a skos:Concept ;
 
 fach:ErnGes a skos:Concept ;
     skos:prefLabel "Ernährung und Gesundheit"@de ;
-    skos:altLabel "ErnGes"@de,  ;
+    skos:altLabel "ErnGes"@de ;
     #skos:related eafsys:04006 ;
     skos:topConceptOf fach: .
 

@@ -8,7 +8,7 @@ zusatz2: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-15"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept zusatz2:A1, zusatz2:A2, zusatz2:Atom, zusatz2:AufgZurOrient, zusatz2:Aufsatz, zusatz2:AbiBac, zusatz2:B1, zusatz2:B2, zusatz2:Betrieb, zusatz2:BspPruef, zusatz2:DELF, zusatz2:DELFA1, zusatz2:DELFA2, zusatz2:DELFB1, zusatz2:DELFB2, zusatz2:E1, zusatz2:E2, zusatz2:Energie, zusatz2:Externenpruefung, zusatz2:Fruehjahr, zusatz2:Herbst, zusatz2:Holz, zusatz2:Kunststoff, zusatz2:Lesen, zusatz2:Metall, zusatz2:Musterpruefung, zusatz2:nichtZurUeb, zusatz2:Orthografie, zusatz2:Papier, zusatz2:Pflichtteil, zusatz2:Rechtschreibung, zusatz2:Richtigschreiben, zusatz2:Sommer, zusatz2:Sprachbetrachtung, zusatz2:Sprachgebrauch, zusatz2:Sprachtest, zusatz2:Spracheuntersuchen, zusatz2:Textverstaendnis, zusatz2:Textrechnen, zusatz2:Texteverfassen, zusatz2:Texteverstehen, zusatz2:Ton, zusatz2:Verkauf, zusatz2:Wahlteil, zusatz2:Weiterentwicklung, zusatz2:Zahlenrechnen, zusatz2:Zuhoeren .
+    skos:hasTopConcept zusatz2:A1, zusatz2:A2, zusatz2:Atom, zusatz2:AufgZurOrient, zusatz2:Aufsatz, zusatz2:AbiBac, zusatz2:B1, zusatz2:B2, zusatz2:Betrieb, zusatz2:BspPruef, zusatz2:DELF, zusatz2:DELFA1, zusatz2:DELFA2, zusatz2:DELFB1, zusatz2:DELFB2, zusatz2:E1, zusatz2:E2, zusatz2:Energie, zusatz2:Externenpruefung, zusatz2:FSPGY, zusatz2:Fruehjahr, zusatz2:Herbst, zusatz2:Holz, zusatz2:Kunststoff, zusatz2:Lesen, zusatz2:Metall, zusatz2:Musterpruefung, zusatz2:nichtZurUeb, zusatz2:Orthografie, zusatz2:Papier, zusatz2:Pflichtteil, zusatz2:Rechtschreibung, zusatz2:Richtigschreiben, zusatz2:Sommer, zusatz2:Sprachbetrachtung, zusatz2:Sprachgebrauch, zusatz2:Sprachtest, zusatz2:Spracheuntersuchen, zusatz2:Textverstaendnis, zusatz2:Textrechnen, zusatz2:Texteverfassen, zusatz2:Texteverstehen, zusatz2:Ton, zusatz2:Verkauf, zusatz2:Wahlteil, zusatz2:Weiterentwicklung, zusatz2:Zahlenrechnen, zusatz2:Zuhoeren .
 
 zusatz2:A1 a skos:Concept ;
     skos:prefLabel "A1"@de ;
@@ -103,6 +103,11 @@ zusatz2:Energie a skos:Concept ;
 zusatz2:Externenpruefung a skos:Concept ;
     skos:prefLabel "Externenprüfung"@de ;
     skos:altLabel "Externenpruefung"@de ;
+    skos:topConceptOf zusatz2: .
+
+zusatz2:FSPGY a skos:Concept ;
+    skos:prefLabel "Feststellungsprüfungen Gymnasium (nach §15 Abs. 3 GSO)"@de ;
+    skos:altLabel "FSPGY"@de ;
     skos:topConceptOf zusatz2: .
 
 zusatz2:Fruehjahr a skos:Concept ;

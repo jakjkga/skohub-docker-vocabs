@@ -1,0 +1,288 @@
+@prefix schulart: <https://example.org/schulart/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+schulart: a skos:ConceptScheme ;
+    dct:title "schulart"@de ;
+    dct:creator "Joachim Jakob"@de ;
+    dct:created "2021-11-02"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept schulart:AS, schulart:BBS, schulart:BB .
+
+schulart:AS a skos:Concept ;
+    skos:prefLabel "Allgemeinbildende Schule"@de ;
+    skos:altLabel "Allg. Schule"@de, "AS"@de ;
+    skos:narrower schulart:GS, schulart:MS, schulart:RS, schulart:GY ;
+    skos:topConceptOf schulart: .
+
+schulart:GS a skos:Concept ;
+    skos:prefLabel "Grundschule"@de ;
+    skos:altLabel "Grundsch."@de, "GS"@de ;
+    skos:broader schulart:AS ;
+    skos:inScheme schulart: .
+
+schulart:MS a skos:Concept ;
+    skos:prefLabel "Mittelschule"@de ;
+    skos:altLabel "Mittelsch."@de, "MS"@de ;
+    skos:hiddenLabel "Hauptschule"@de ;
+    skos:broader schulart:AS ;
+    skos:inScheme schulart: .
+
+schulart:RS a skos:Concept ;
+    skos:prefLabel "Realschule"@de ;
+    skos:altLabel "Realsch."@de, "RS"@de ;
+    skos:broader schulart:AS ;
+    skos:inScheme schulart: .
+
+schulart:GY a skos:Concept ;
+    skos:prefLabel "Gynasium"@de ;
+    skos:altLabel "Gymn."@de, "GY"@de, "GYM"@de ;
+    skos:broader schulart:AS ;
+    skos:inScheme schulart: .
+
+schulart:BBS a skos:Concept ;
+    skos:prefLabel "Berufliche Schule"@de ;
+    skos:altLabel "Berufl. Schule"@de, "Berufsbildende Schule"@de, "BBS"@de, "BES"@de ;
+    skos:narrower schulart:FOSBOS, schulart:WS, schulart:BS, schulart:BFS, schulart:FA, schulart:FS, schulart:FSFABFSBSPlus, schulart:FSFABSPlus ;
+    skos:topConceptOf schulart: .
+
+schulart:WS a skos:Concept ;
+    skos:prefLabel "Wirtschaftsschule"@de ;
+    skos:altLabel "Wirtsch. Schule"@de, "WS"@de ;
+    skos:broader schulart:BBS ;
+    skos:inScheme schulart: .
+
+schulart:FOSBOS a skos:Concept ;
+    skos:prefLabel "Fachoberschule und Berufsoberschule"@de ;
+    skos:altLabel "Fach- und Berufsoberschule"@de, "Berufliche Oberschule"@de, "FOS/BOS"@de, "FOSBOS"@de ;
+    skos:broader schulart:BBS ;
+    skos:inScheme schulart: .
+
+schulart:BS a skos:Concept ;
+    skos:prefLabel "Berufsschule"@de ;
+    skos:altLabel "Berufssch."@de ;
+    skos:broader schulart:BBS ;
+    skos:narrower schulart:BSHausWi, schulart:BSLandw, schulart:BSGartBaum, schulart:BSGartFried, schulart:BSGartLand, schulart:BSGartObst, schulart:BSGartStaud, schulart:BSGartZier ;
+    skos:inScheme schulart: .
+
+schulart:BSHausWi a skos:Concept ;
+    skos:prefLabel "Berufsschule Ausbildungsberuf Hauswirtschafterin/Hauswirtschafter"@de ;
+    skos:altLabel "Berufssch. Ausb. Hauswirtsch."@de ;
+    skos:broader schulart:BS ;
+    skos:inScheme schulart: .
+
+schulart:BSLandw a skos:Concept ;
+    skos:prefLabel "Berufsschule Ausbildungsberuf Landwirt/Landwirtin"@de ;
+    skos:altLabel "Berufssch. Ausb. Landw."@de ;
+    skos:broader schulart:BS ;
+    skos:inScheme schulart: .
+
+schulart:BSGartBaum a skos:Concept ;
+    skos:prefLabel "Berufsschule Gartenbau Fachrichtung Baumschule"@de ;
+    skos:altLabel "Berufssch. Gartenb. Fachr. Baumsch."@de ;
+    skos:broader schulart:BS ;
+    skos:inScheme schulart: .
+
+schulart:BSGartFried a skos:Concept ;
+    skos:prefLabel "Berufsschule Gartenbau Fachrichtung Friedhofsgärtnerei"@de ;
+    skos:altLabel "Berufssch. Gartenb. Fachr. Friedhof"@de ;
+    skos:broader schulart:BS ;
+    skos:inScheme schulart: .
+
+schulart:BSGartLand a skos:Concept ;
+    skos:prefLabel "Berufsschule Gartenbau Fachrichtung Garten und Landschaftsbau"@de ;
+    skos:altLabel "Berufssch. Gartenb. Fachr. Gart. u. Lanschaftsb."@de ;
+    skos:broader schulart:BS ;
+    skos:inScheme schulart: .
+
+schulart:BSGartObst a skos:Concept ;
+    skos:prefLabel "Berufsschule Gartenbau Fachrichtung Obstbau"@de ;
+    skos:altLabel "Berufssch. Gartenb. Fachr. Obstb."@de ;
+    skos:broader schulart:BS ;
+    skos:inScheme schulart: .
+
+schulart:BSGartStaud a skos:Concept ;
+    skos:prefLabel "Berufsschule Gartenbau Fachrichtung Staudengärtnerei"@de ;
+    skos:altLabel "Berufssch. Gartenb. Fachr. Staudeng."@de ;
+    skos:broader schulart:BS ;
+    skos:inScheme schulart: .
+
+schulart:BSGartZier a skos:Concept ;
+    skos:prefLabel "Berufsschule Gartenbau Fachrichtung Zierpflanzenbau"@de ;
+    skos:altLabel "Berufssch. Gartenb. Fachr. Zierpfl."@de ;
+    skos:broader schulart:BS ;
+    skos:inScheme schulart: .
+
+schulart:BFS a skos:Concept ;
+    skos:prefLabel "Berufsfachschule"@de ;
+    skos:altLabel "Berufsfachsch."@de ;
+    skos:broader schulart:BBS ;
+    skos:narrower schulart:BFSAltPfl, schulart:BFSAltPflHi, schulart:BFSAPHKPH, schulart:BFSEuroManAss, schulart:BFSErnVers, schulart:BFSFremdSpr, schulart:BFSGenPfl, schulart:BFSKiPfl, schulart:BFSKiPflSoz, schulart:BFSKranPfl, schulart:BFSKranPflHi, schulart:BFSSozPfl, schulart:BFSKaufmAss;
+    skos:inScheme schulart: .
+
+schulart:BFSAltPfl a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Altenpflege"@de ;
+    skos:altLabel "Berufsfachsch. f. Altenpfl."@de ;
+    skos:broader schulart:BFS ;
+    skos:inScheme schulart: .
+
+schulart:BFSAltPflHi a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Altenpflegehilfe"@de ;
+    skos:altLabel "Berufsfachsch. f. Altenpfl. Hilfe"@de ;
+    skos:broader schulart:BFS ;
+    skos:inScheme schulart: .
+
+schulart:BFSAPHKPH a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Altenpflegehilfe und Krankenpflegehilfe"@de ;
+    skos:altLabel "Berufsfachsch. f. Alten- und Krankenpfl. Hilfe"@de ;
+    skos:broader schulart:BFS ;
+    skos:inScheme schulart: .
+
+schulart:BFSEuroManAss a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Euro-Management-Assistent/innen"@de ;
+    skos:altLabel "Berufsfachschule f. Euro-Management-Assistent/innen"@de ;
+    skos:broader schulart:BFS ;
+    skos:inScheme schulart: .
+
+schulart:BFSErnVers a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Ernährung und Versorgung"@de ;
+    skos:altLabel "Berufsfachsch. f. Ern. u. Vers."@de ;
+    skos:broader schulart:BFS ;
+    skos:inScheme schulart: .
+
+schulart:BFSFremdSpr a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Fremdsprachenberufe"@de ;
+    skos:altLabel "Berufsfachsch. f. Fremdspr."@de, "Berufsfachschule für Eurokorrespondenten"@de, "Berufsfachschule für Euro-Korrespondenten"@de ;
+    skos:broader schulart:BFS ;
+    skos:inScheme schulart: .
+
+schulart:BFSGenPfl a skos:Concept ;
+    skos:prefLabel "Generalistische Pflegeausbildung mit beruflichem Schwerpunkt"@de ;
+    skos:altLabel "Gen. Pflegeausb. m. berufl. Schw."@de ;
+    skos:broader schulart:BFS ;
+    skos:inScheme schulart: .
+
+schulart:BFSKiPfl a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Kinderpflege"@de ;
+    skos:altLabel "Berufsfachsch. f. Kinderpfl."@de ;
+    skos:broader schulart:BFS ;
+    skos:inScheme schulart: .
+
+schulart:BFSKiPflSoz a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Kinderpflege und Sozialpädagogisches Seminar"@de ;
+    skos:altLabel "Berufsfachsch. f. Kinderpfl. m. Sozpäd. Seminar"@de ;
+    skos:broader schulart:BFS ;
+    skos:inScheme schulart: .
+
+schulart:BFSKranPfl a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Krankenpflege"@de ;
+    skos:altLabel "Berufsfachsch. f. Krankenpfl."@de ;
+    skos:broader schulart:BFS ;
+    skos:inScheme schulart: .
+
+schulart:BFSKranPflHi a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Krankenpflegehilfe"@de ;
+    skos:altLabel "Berufsfachsch. f. Krankenpfl. Hilfe"@de ;
+    skos:broader schulart:BFS ;
+    skos:inScheme schulart: .
+
+schulart:BFSSozPfl a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für Sozialpflege"@de ;
+    skos:altLabel "Berufsfachsch. f. Sozialpfl."@de ;
+    skos:broader schulart:BFS ;
+    skos:inScheme schulart: .
+
+schulart:BFSKaufmAss a skos:Concept ;
+    skos:prefLabel "Berufsfachschule für kaufmännische Assistenten"@de ;
+    skos:altLabel "Berufsfachsch. f. kaufm. Ass."@de ;
+    skos:broader schulart:BFS ;
+    skos:inScheme schulart: .
+
+schulart:FA a skos:Concept ;
+    skos:prefLabel "Fachakademie"@de ;
+    skos:altLabel "Fachakad."@de, "FAK"@de ;
+    skos:broader schulart:BBS ;
+    skos:narrower schulart:FAErnVers, schulart:FAHeilPaed, schulart:FASozPaed, schulart:FAWirt, schulart:FADol ;
+    skos:inScheme schulart: .
+
+schulart:FAErnVers a skos:Concept ;
+    skos:prefLabel "Fachakademie für Ernährungs- und Versorgungsmanagement"@de ;
+    skos:altLabel "FA Ern. u. Vers."@de, "FAErnVers"@de ;
+    skos:broader schulart:FA ;
+    skos:inScheme schulart: .
+
+schulart:FAHeilPaed a skos:Concept ;
+    skos:prefLabel "Fachakademie für Heilpädagogik"@de ;
+    skos:altLabel "FA Heilpäd."@de, "FAHeilPaed"@de ;
+    skos:broader schulart:FA ;
+    skos:inScheme schulart: .
+
+schulart:FASozPaed a skos:Concept ;
+    skos:prefLabel "Fachakademie für Sozialpädagogik"@de ;
+    skos:altLabel "FA Sozpäd."@de, "FASozPaed"@de ;
+    skos:broader schulart:FA ;
+    skos:inScheme schulart: .
+
+schulart:FAWirt a skos:Concept ;
+    skos:prefLabel "Fachakademie für Wirtschaft"@de ;
+    skos:altLabel "FA Wirtsch."@de, "FAWirt"@de ;
+    skos:broader schulart:FA ;
+    skos:inScheme schulart: .
+
+schulart:FADol a skos:Concept ;
+    skos:prefLabel "Fachakademie für Übersetzer und Dolmetscher"@de ;
+    skos:altLabel "FA f. Übers. u. Dolm."@de, "FADol"@de ;
+    skos:broader schulart:FA ;
+    skos:inScheme schulart: .
+
+schulart:FS a skos:Concept ;
+    skos:prefLabel "Fachschule"@de ;
+    skos:altLabel "Fachsch."@de ;
+    skos:broader schulart:BBS ;
+    skos:narrower schulart:FSHeilerzPfl, schulart:FSHeilerzPflHi, schulart:FSGSKiBetr ;
+    skos:inScheme schulart: .
+
+schulart:FSHeilerzPfl a skos:Concept ;
+    skos:prefLabel "Fachschule für Heilerziehungspflege"@de ;
+    skos:altLabel "FS Heilerziehungspflege"@de, "FSHeilerzPfl"@de ;
+    skos:broader schulart:FS ;
+    skos:inScheme schulart: .
+
+schulart:FSHeilerzPflHi a skos:Concept ;
+    skos:prefLabel "Fachschule für Heilerziehungspflegehilfe"@de ;
+    skos:altLabel "FS für Heilerziehungspflegehilfe"@de, "FSHeilerzPflHi"@de ;
+    skos:broader schulart:FS ;
+    skos:inScheme schulart: .
+
+schulart:FSGSKiBetr a skos:Concept ;
+    skos:prefLabel "Fachschule für Grundschulkindbetreuung"@de ;
+    skos:altLabel "FS für Grundschulkindbetr."@de, "FSGSKiBetr"@de ;
+    skos:broader schulart:FS ;
+    skos:inScheme schulart: .
+
+schulart:FSFABFSBSPlus a skos:Concept ;
+    skos:prefLabel "Fachschule, Fachakademie, Berufsfachschule, Berufsschule Plus"@de ;
+    skos:altLabel "FS, FA, BFS, BS+"@de, "FSFABFSBSPlus"@de ;
+    skos:broader schulart:BBS ;
+    skos:inScheme schulart: .
+
+schulart:FSFABSPlus a skos:Concept ;
+    skos:prefLabel "Fachschule, Fachakademie, Berufsschule Plus"@de ;
+    skos:altLabel "FS, FA, BS+"@de, "FSFABSPlus"@de ;
+    skos:broader schulart:BBS ;
+    skos:inScheme schulart: .
+
+schulart:BB a skos:Concept ;
+    skos:prefLabel "Berufsbegleitend"@de ;
+    skos:altLabel "Berufsbegl."@de ;
+    skos:narrower schulart:TK ;
+    skos:inScheme schulart: .
+
+schulart:TK a skos:Concept ;
+    skos:prefLabel "Telekolleg"@de ;
+    skos:altLabel "TK"@de ;
+    skos:broader schulart:BB ;
+    skos:inScheme schulart: .
+
+

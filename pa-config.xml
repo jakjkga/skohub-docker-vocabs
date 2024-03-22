@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valuespaces>
+  
+  <!-- Prüfungsart https://jakjkga.github.io/skohub-docker-vocabs/example.org/pruefungsart/index.de.html -->
+  <!--  
+    Verwendung in der Suchoberfläche:       Filterleiste 1. Filterkategorie von oben, aufgeklappt
+    Stellung im Dateinamen:                 verpflichtend in der 1. Position
+    Verwendung in der Redaktionsoberfläche: Formularfeld
+  -->
+  <valuespace property="ccm:TODO">
+   <key cap="Abschlussprüfung">AP</key>
+     <key parent="AP" cap="Qualifizierter Abschluss">Quali</key>
+     <key parent="AP" cap="Mittlerer Schulabschluss">MSA</key>
+     <key parent="AP" cap="Mittlerer Schulabschluss (KMK-Zertifikatsprüfung)">MSAZERT</key>
+     <key parent="AP" cap="Mittlerer Schulabschluss (Besondere Prüfung)">MSABP</key>
+     <key parent="AP" cap="Allgemeine Hochschulreife (Abitur)">ABIallg</key>
+     <key parent="AP" cap="Fachgebundene Hochschulreife (Fachgeb. Abitur)">ABIfachgeb</key>
+     <key parent="AP" cap="Fachhochschulreife (Fachabitur)">FAP</key>
+     <key parent="AP" cap="Fachhochschulreife (Ergänzungsprüfung an Fachschule/-akademie, BS+)">FAPEP</key>
+     <key parent="AP" cap="Berufliche Abschlussprüfung">BAP</key>
+     <key parent="AP" cap="Allgemeine Hochschulreife (Ergänzungsprüfung FOS-BOS)">ABIEP</key>
+   <key cap="Jahrgangsstufenarbeit">JA</key>
+     <key parent="JA" cap="Jahrgangsstufenarbeit-6">JA6</key>
+     <key parent="JA" cap="Jahrgangsstufenarbeit-7">JA7</key>
+     <key parent="JA" cap="Jahrgangsstufenarbeit-8">JA8</key>
+     <key parent="JA" cap="Jahrgangsstufenarbeit-9">JA9</key>
+     <key parent="JA" cap="Jahrgangsstufenarbeit-10">JA10</key>
+   <key cap="Vergleichsarbeit">VA</key>
+     <key parent="VA" cap="Orientierungsarbeit-2">OA2</key>
+     <key parent="VA" cap="VERA-3">VERA3</key>
+     <key parent="VA" cap="VERA-8">VERA8</key>
+   <key cap="Probeunterricht">PU</key>
+     <key parent="PU" cap="Probeunterricht-4">PU4</key>
+     <key parent="PU" cap="Probeunterricht-5">PU5</key>
+     <key parent="PU" cap="Probeunterricht-6">PU6</key>
+     <key parent="PU" cap="Probeunterricht-7">PU7</key>
+     <key parent="PU" cap="Probeunterricht-8">PU8</key>
+   <key cap="Grundwissenstest">GW</key>
+     <key parent="GW" cap="Grundwissenstest-7">PU7</key>
+     <key parent="GW" cap="Grundwissenstest-9">PU9</key>
+   <key cap="Herkunftssprachenprüfung">HSP</key>
+     <key parent="HSP" cap="Herkunftssprachenprüfung-7">HSP7</key>
+     <key parent="HSP" cap="Herkunftssprachenprüfung-8">HSP8</key>
+     <key parent="HSP" cap="Herkunftssprachenprüfung-9">HSP9</key>
+     <key parent="HSP" cap="Herkunftssprachenprüfung-10">HSP10</key>
+   </valuespace>
+  
+  <!-- Schulart https://jakjkga.github.io/skohub-docker-vocabs/example.org/schulform/BSLandw.de.html -->
+  <!--  
+    Verwendung in der Suchoberfläche:       Filterleiste 2. Filterkategorie von oben, aufgeklappt
+    Stellung im Dateinamen:                 verpflichtend in der 2. Position
+    Verwendung in der Redaktionsoberfläche: Formularfeld
+  -->
+  <valuespace property="ccm:TODO">
+   <key cap="Allgemeinbildende Schule">AS</key>
+     <key parent="AS" cap="Grundschule">GS</key>
+     <key parent="AS" cap="Mittelschule">MS</key>
+     <key parent="AS" cap="Realschule">RS</key>
+     <key parent="AS" cap="Gynasium">GY</key>
+   <key cap="Berufliche Schule">BBS</key>
+     <key parent="BBS" cap="Fachoberschule und Berufsoberschule">FOSBOS</key>
+     <key parent="BBS" cap="Wirtschaftsschule">WS</key>
+     <key parent="BBS" cap="Berufsschule">BS</key>
+       <key parent="BS" cap="Berufsschule Ausbildungsberuf Hauswirtschafterin/Hauswirtschafter">BSHausWi</key>
+       <key parent="BS" cap="Berufsschule Ausbildungsberuf Landwirt/Landwirtin">BSLandw</key>
+       <key parent="BS" cap="Berufsschule Gartenbau Fachrichtung Baumschule">BSGartBaum</key>
+       <key parent="BS" cap="Berufsschule Gartenbau Fachrichtung Friedhofsgärtnerei">BSGartFried</key>
+       <key parent="BS" cap="Berufsschule Gartenbau Fachrichtung Garten und Landschaftsbau">BSGartLand</key>
+       <key parent="BS" cap="Berufsschule Gartenbau Fachrichtung Obstbau">BSGartObst</key>
+       <key parent="BS" cap="Berufsschule Gartenbau Fachrichtung Staudengärtnerei">BSGartStaud</key>
+       <key parent="BS" cap="Berufsschule Gartenbau Fachrichtung Zierpflanzenbau">BSGartZier</key>
+     <key parent="BBS" cap="Berufsfachschule">BFS</key>
+       <key parent="BFS" cap="Berufsfachschule für Altenpflege">BFSAltPfl</key>
+       <key parent="BFS" cap="Berufsfachschule für Altenpflegehilfe">BFSAltPflHi</key>
+       <key parent="BFS" cap="Berufsfachschule für Altenpflegehilfe und Krankenpflegehilfe">BFSAPHKPH</key>
+	     <key parent="BFS" cap="Berufsfachschule für Euro-Management-Assistent/innen">BFSEuroManAss</key>
+       <key parent="BFS" cap="Berufsfachschule für Ernährung und Versorgung">BFSErnVers</key>
+       <key parent="BFS" cap="Berufsfachschule für Fremdsprachenberufe">BFSFremdSpr</key>
+       <key parent="BFS" cap="Generalistische Pflegeausbildung mit beruflichem Schwerpunkt">BFSGenPfl</key>
+       <key parent="BFS" cap="Berufsfachschule für Kinderpflege">BFSKiPfl</key>
+       <key parent="BFS" cap="Berufsfachschule für Kinderpflege und Sozialpädagogisches Seminar">BFSKiPflSoz</key>
+       <key parent="BFS" cap="Berufsfachschule für Krankenpflege">BFSKranPfl</key>
+       <key parent="BFS" cap="Berufsfachschule für Krankenpflegehilfe">BFSKranPflHi</key>
+       <key parent="BFS" cap="Berufsfachschule für Sozialpflege">BFSSozPfl</key>
+       <key parent="BFS" cap="Berufsfachschule für kaufmännische Assistenten">BFSKaufmAss</key>
+     <key parent="BBS" cap="Fachakademie">FA</key>
+       <key parent="FA" cap="Fachakademie für Ernährungs- und Versorgungsmanagement">FAErnVers</key>
+       <key parent="FA" cap="Fachakademie für Heilpädagogik">FAHeilPaed</key>
+       <key parent="FA" cap="Fachakademie für Sozialpädagogik">FASozPaed</key>
+       <key parent="FA" cap="Fachakademie für Wirtschaft">FAWirt</key>
+       <key parent="FA" cap="Fachakademie für Übersetzer und Dolmetscher">FADol</key>
+     <key parent="BBS" cap="Fachschule">FS</key>
+       <key parent="FS" cap="Fachschule für Heilerziehungspflege">FSHeilerzPfl</key>
+       <key parent="FS" cap="Fachschule für Heilerziehungspflegehilfe">FSHeilerzPflHi</key>
+       <key parent="FS" cap="Fachschule für Grundschulkindbetreuung">FSGSKiBetr</key>
+     <key parent="BBS" cap="Fachschule, Fachakademie, Berufsfachschule, Berufsschule Plus">FSFABFSBSPlus</key>
+     <key parent="BBS" cap="Fachschule, Fachakademie, Berufsschule Plus">FSFABSPlus</key>
+   <key cap="Berufsbegleitend">BB</key>
+     <key parent="BB" cap="Telekolleg">TK</key>
+  </valuespace>
+  
+  <!-- Fach https://jakjkga.github.io/skohub-docker-vocabs/example.org/fach/index.de.html -->
+  <!--  
+    Verwendung in der Suchoberfläche:       Filterleiste 3. Filterkategorie von oben, aufgeklappt, mit TypeAhead-Filter
+    Stellung im Dateinamen:                 verpflichtend in der 3. Position
+    Verwendung in der Redaktionsoberfläche: Formularfeld
+  -->
+  <valuespace property="ccm:TODO">
+
+    <key cap="Berufs-, Rechts-, Sozialkunde">BkRkSk</key>
+    <key cap="Biologie">B</key>
+    <key cap="Chemie">C</key>
+    <key cap="Chinesisch">Chi</key>
+    <key cap="Darstellung">Dst</key>
+    <key cap="Deutsch">D</key>
+       <key parent="D" cap="Deutsch als Zweitsprache (DaZ)">DaZ</key>
+       <key parent="D" cap="Deutsch und Kommunikation">DuK</key>
+       <key parent="D" cap="Deutsch-Sprachtest">DS</key>
+    <key cap="Englisch">E</key>
+     <key parent="E" cap="Englisch - Außenhandel">EAu</key>
+     <key parent="E" cap="Englisch - Bautechnik und Holztechnik">EBTHT</key>
+     <key parent="E" cap="Englisch - Büro und Verwaltung">EBueroVerw</key>
+     <key parent="E" cap="Englisch - Chemie">EC</key>
+     <key parent="E" cap="Englisch - Einzelhandel">EEinzelH</key>
+     <key parent="E" cap="Englisch - Elektrotechnik">EElektroT</key>
+     <key parent="E" cap="Englisch - Finanzen und Versicherungen">EFinVers</key>
+     <key parent="E" cap="Englisch - Gastgewerbe">EGG</key>
+     <key parent="E" cap="Englisch - Gesundheit">EGes</key>
+     <key parent="E" cap="Englisch - Handel">EHand</key>
+     <key parent="E" cap="Englisch - Industrie">EInd</key>
+     <key parent="E" cap="Englisch - Informationstechnik">EIT</key>
+     <key parent="E" cap="Englisch - Mechatronik">EMech</key>
+     <key parent="E" cap="Englisch - Mechatronik und Elektrotechnik">EMechET</key>
+     <key parent="E" cap="Englisch - Medien">EMed</key>
+     <key parent="E" cap="Englisch - Metalltechnik">EMet</key>
+     <key parent="E" cap="Englisch - Produktdesign">EProd</key>
+     <key parent="E" cap="Englisch - Recht">ERe</key>
+     <key parent="E" cap="Englisch - Technik und Gestaltung (allgemein)">ETechGest</key>
+     <key parent="E" cap="Englisch - Tourismus">ETour</key>
+     <key parent="E" cap="Englisch - Wirtschaft und Verwaltung (allgemein)">EWirtVerw</key>
+    <key cap="Ethik">Eth</key>
+    <key cap="Evangelische Religionslehre">Ev</key>
+    <key cap="Französisch">F</key>
+    <key cap="Geographie">Geo</key>
+    <key cap="Geschichte">G</key>
+    <key cap="Geschichte auf Französisch">GF</key>
+    <key cap="Geschichte+Sozialkunde">GS</key>
+    <key cap="Gestaltung">Gest</key>
+    <key cap="Gesundheitswissenschaften">GesWiss</key>
+      <key parent="GesWiss" cap="Alten- und Altenkrankenpflege">APAKP</key>
+      <key parent="GesWiss" cap="Betreuungsleistungen">BL</key>
+      <key parent="GesWiss" cap="Ernährung">Ern</key>
+      <key parent="GesWiss" cap="Ernährung und Gesundheit">ErnGes</key>
+      <key parent="GesWiss" cap="Generalistische Pflegeausbildung mit beruflichem Schwerpunkt">GenPflBerSchw</key>
+      <key parent="GesWiss" cap="Gesundheit, Unterstützung, Assistent">GesUntAss</key>
+      <key parent="GesWiss" cap="Grundlagen der Pflege">GruPfl</key>
+      <key parent="GesWiss" cap="Haushalt und Ernährung">HausErn</key>
+      <key parent="GesWiss" cap="Heilerziehungspflege und Sozialbetreuung">HEPSB</key>
+      <key parent="GesWiss" cap="Heilpädagogik">HeilPaed</key>
+      <key parent="GesWiss" cap="Kompetenzfeststellungsverfahren">KompFeVer</key>
+      <key parent="GesWiss" cap="Ökologie und Gesundheit">OekGes</key>
+      <key parent="GesWiss" cap="Pflege">Pfl</key>
+      <key parent="GesWiss" cap="Pflege und Betreuung">PuB</key>  
+      <key parent="GesWiss" cap="Prüfung der Kompetenzen nach Anlage 1 PflAPrV">KompPflAPrV</key>
+      <key parent="GesWiss" cap="äuglingsbetreuung">SaeugB</key>
+    <key cap="Griechisch">Gr</key>
+    <key cap="Informationstechnologie">IT</key>
+      <key parent="IT" cap="Informatik">Inf</key>
+      <key parent="IT" cap="Informationsverarbeitung">IV</key>
+    <key cap="Israelitische Religionslehre">Isr</key>
+    <key cap="Italienisch">It</key>
+    <key cap="Katholische Religionslehre">K</key>
+    <key cap="Kunst">Ku</key>
+    <key cap="Latein">L</key>
+    <key cap="Lebensgestaltung">LeGes</key>
+    <key cap="Lebenszeit- und Lebensraumgestaltung">LeZeiLeRaumGes</key>
+    <key cap="Literatur- und Medienpädagogik">LitPaedMedPaed</key>
+    <key cap="Mathematik">M</key>
+      <key parent="M" cap="Mathematik CAS">MCAS</key>
+      <key parent="M" cap="Mathematik Technik">MT</key>
+      <key parent="M" cap="Mathematik Technik CAS">MTCAS</key>
+      <key parent="M" cap="Mathematik Nichttechnik">MNT</key>
+      <key parent="M" cap="Mathematisch-naturwissenschaftliche Erziehung">MnE</key>
+    <key cap="Medizin und Psychiatrie">MedPsy</key>
+    <key cap="Musik">Mu</key>
+    <key cap="Muttersprache">Musp</key>
+    <key cap="Natur und Technik">NT</key>
+    <key cap="Pädagogik/Psychologie">PaedPsy</key>
+    <key cap="Pädagogik/Psychologie/Heilpädagogik">PaedPsyHeilpaed</key>
+    <key cap="Personalführung">Persfuehr</key>
+    <key cap="Pflanzenkenntnisse">PflanKen</key>
+    <key cap="Pflanzenproduktion">PflanProd</key>
+    <key cap="Pflanzenverkauf">PflanVerk</key>
+    <key cap="Physik">Ph</key>
+    <key cap="Politik, Gesellschaft und Berufskunde">PolGesBk</key>
+    <key cap="Politik und Gesellschaft sowie Soziologie">PolGesSoz</key>
+    <key cap="Politik und Geschichte">PuG</key>
+    <key cap="Psychologie">Psy</key>
+    <key cap="Rechtskunde">Rk</key>
+    <key cap="Recht und Verwaltung">RV</key>
+    <key cap="Russisch">Ru</key>
+    <key cap="Sozial- und Berufskunde">SkBk</key>
+    <key cap="Sozialkunde">Sk</key>
+    <key cap="Sozialkunde und Soziologie">SkSoz</key>
+    <key cap="Soziallehre">SL</key>
+    <key cap="Sozialwesen">Sow</key>
+    <key cap="Spanisch">Sp</key>
+    <key cap="Sport">S</key>
+    <key cap="Tierproduktion">TierProd</key>
+    <key cap="Verkaufen und Beraten">VerkBer</key>
+    <key cap="Versorgungsleistungen">VersL</key>
+    <key cap="Werken">We</key>
+    <key cap="Wirtschaft">Wi</key>
+      <key parent="Wi" cap="Allgemeine Wirtschaftslehre">AWL</key>
+      <key parent="Wi" cap="Außenwirtschaft">AuWi</key>
+      <key parent="Wi" cap="Betriebliche Zusammenhänge">BetrZus</key>
+      <key parent="Wi" cap="Betriebswirtschaft">BW</key>
+      <key parent="Wi" cap="Betriebswirtschaftliche Steuerung und Kontrolle">BSK</key>
+      <key parent="Wi" cap="Betriebswirtschaftslehre/Rechnungswesen">BWLRW</key>
+      <key parent="Wi" cap="Betriebswirtschaftslehre/Volkswirtschaftslehre">BWLVWL</key>
+      <key parent="Wi" cap="Internationale Betriebs- und Volkswirtschaftslehre">IBV</key>
+      <key parent="Wi" cap="Rechnungswesen">RW</key>
+      <key parent="Wi" cap="Übungsunternehmen">UebU</key>
+      <key parent="Wi" cap="Wirtschaftsenglisch">WE</key>
+      <key parent="Wi" cap="Wirtschaft und Recht">WR</key>
+      <key parent="Wi" cap="Wirtschafts- und Sozialkunde">WiSo</key>
+      <key parent="Wi" cap="Volkswirtschaftslehre">VWL</key>
+  </valuespace>
+  
+  <!-- Materialtyp https://jakjkga.github.io/skohub-docker-vocabs/example.org/materialtyp/index.de.html -->
+  <!--  
+    Verwendung in der Suchoberfläche:       nicht als Filterkategorie
+    Stellung im Dateinamen:                 verpflichtend in der 4. Position
+    Verwendung in der Redaktionsoberfläche: Formularfeld
+  -->
+  <valuespace property="ccm:TODO">
+    <key cap="Abbildungen">Abb</key>
+    <key cap="Aufgaben">Aufg</key>
+    <key cap="Aufgaben (geschwärzt)">AufgBlack</key>
+    <key cap="Auswertung">Ausw</key>
+    <key cap="Beispielprüfung">BspPruef</key>
+    <key cap="Diagnose">Diagn</key>
+    <key cap="Didaktische Hinweise">DidHinw</key>
+    <key cap="Durchführung">Durchf</key>
+    <key cap="Ergebnisse">Ergeb</key>
+    <key cap="Erläuterungen">Erlaeut</key>
+    <key cap="Hinweise">Hinw</key>
+    <key cap="Hörbeispiel">Hoerbsp</key>
+    <key cap="Hörverstehen">Hoerverst</key>
+    <key cap="Leistungstest">LeistTest</key>
+    <key cap="Lösungen">Loes</key>
+    <key cap="Lösungen (geschwärzt)">LoesBlack</key>
+    <key cap="Lehrplanbezüge">LPBez</key>
+    <key cap="Material (einzeln)">MatEinz</key>
+    <key cap="Materialpaket">MatPak</key>
+    <key cap="Mediation">Med</key>
+    <key cap="mündlich">muend</key>
+    <key cap="Musterprüfung">MusterPruef</key>
+    <key cap="Notentexte">Noten</key>
+    <key cap="Prüfungsbeispiel">PruefBsp</key>
+    <key cap="Reading">Read</key>
+    <key cap="Topic based Talk">TBT</key>
+    <key cap="Texte">Text</key>
+    <key cap="Textproduktion">Textprod</key>
+    <key cap="Übersicht Hörzeiten">UebHoerz</key>
+    <key cap="Writing">Write</key>
+  </valuespace>
+  
+  <!-- Prüfungsjahr https://jakjkga.github.io/skohub-docker-vocabs/example.org/pruefungsjahr/index.de.html -->
+  <!--  
+    Verwendung in der Suchoberfläche:       Filterleiste 4. Filterkategorie von oben, zugeklappt
+    Stellung im Dateinamen:                 verpflichtend in der 5. Position
+    Verwendung in der Redaktionsoberfläche: Formularfeld
+  -->
+  <valuespace property="ccm:TODO">
+    <key cap="Beispiel">9999</key>
+    <key cap="Muster">9998</key>
+    <key cap="Material">9997</key>
+    <key cap="Grundwissen">9996</key>
+    <key cap="2023">2023</key>
+    <key cap="2022">2022</key>
+    <key cap="2021">2021</key>
+    <key cap="2020">2020</key>
+    <key cap="2019">2019</key>
+    <key cap="2018">2018</key>
+    <key cap="2017">2017</key>
+    <key cap="2016">2016</key>
+    <key cap="2015">2015</key>
+    <key cap="2014">2014</key>
+    <key cap="2013">2013</key>
+    <key cap="2012">2012</key>
+    <key cap="2011">2011</key>
+    <key cap="2010">2010</key>
+    <key cap="2009">2009</key>
+    <key cap="2008">2008</key>
+    <key cap="2007">2007</key>
+    <key cap="2006">2006</key>
+    <key cap="2005">2005</key>
+    <key cap="2004">2004</key>
+    <key cap="2003">2003</key>
+    <key cap="2002">2002</key>
+    <key cap="2001">2001</key>
+    <key cap="2000">2000</key>
+  </valuespace>
+  
+  <!-- Termin https://jakjkga.github.io/skohub-docker-vocabs/example.org/termin/index.de.html -->
+  <!--  
+    Verwendung in der Suchoberfläche:       nicht als Filterkategorie
+    Stellung im Dateinamen:                 optional ab der 6. Position
+    Verwendung in der Redaktionsoberfläche: Formularfeld
+  -->
+  <valuespace property="ccm:TODO">
+    <key cap="Haupttermin">HT</key>
+    <key cap="Nachtermin">NT</key>
+    <key cap="Ersatztermin">ET</key>
+    <key cap="Ersatzaufgabe">EA</key>
+  </valuespace>
+  
+  <!-- Zusatz1 https://jakjkga.github.io/skohub-docker-vocabs/example.org/zusatz1/index.de.html -->
+  <!--  
+    Verwendung in der Suchoberfläche:       nicht als Filterkategorie
+    Stellung im Dateinamen:                 optional ab der 6. Position oder höher
+    Verwendung in der Redaktionsoberfläche: Formularfeld
+  -->
+  <valuespace property="ccm:TODO">
+    <key cap="1">1</key>
+    <key cap="2">2</key>
+    <key cap="A">A</key>
+    <key cap="B">B</key>
+    <key cap="C">C</key>
+    <key cap="D">D</key>
+    <key cap="Fall 1">Fall1</key>
+    <key cap="Fall 2">Fall2</key>
+    <key cap="G8">G8</key>
+    <key cap="G9">G9</key>
+    <key cap="Graecum">Graecum</key>
+    <key cap="Grundkurs">GK</key>
+    <key cap="Hauptprüfung">HP</key>
+    <key cap="Latinum">Latinum</key>
+    <key cap="Leistungskurs">LK</key>
+    <key cap="Leistungstest">Leistungstest</key>
+    <key cap="M09">M09</key>
+    <key cap="M09 Zwischenprüfung 1">M09ZP1</key>
+    <key cap="M09 Zwischenprüfung 2">M09ZP2</key>
+    <key cap="M10">M10</key>
+    <key cap="M10 Zwischenprüfung 1">M10ZP1</key>
+    <key cap="M10 Zwischenprüfung 2">M10ZP2</key>
+    <key cap="Module">Module</key>
+    <key cap="Praxis">Praxis</key>
+    <key cap="Tag 1">Tag1</key>
+    <key cap="Tag 2">Tag2</key>
+    <key cap="Tag 3">Tag3</key>
+    <key cap="Tag 4">Tag4</key>
+    <key cap="Track 1">Track01</key>
+    <key cap="Track 2">Track02</key>
+    <key cap="Track 3">Track03</key>
+    <key cap="Track 4">Track04</key>
+    <key cap="Track 5">Track05</key>
+    <key cap="Track 6">Track06</key>
+    <key cap="Track 7">Track07</key>
+    <key cap="Track 8">Track08</key>
+    <key cap="Track 9">Track09</key>
+    <key cap="Track 10">Track10</key>
+    <key cap="Track 11">Track11</key>
+    <key cap="Track 12">Track12</key>
+    <key cap="Track 13">Track13</key>
+    <key cap="Track 14">Track14</key>
+    <key cap="Track 15">Track15</key>
+    <key cap="Track 16">Track16</key>
+    <key cap="Track 17">Track17</key>
+    <key cap="Track 18">Track18</key>
+    <key cap="Track 19">Track19</key>
+    <key cap="Track 20">Track20</key>
+    <key cap="Variante 1">V1</key>
+    <key cap="Variante 2">V2</key>
+    <key cap="Wahlpflichtfächergruppe I">I</key>
+    <key cap="Wahlpflichtfächergruppe II">II</key>
+    <key cap="Zwischenprüfung">ZP</key>
+  </valuespace>
+    
+  <!-- Zusatz2 https://jakjkga.github.io/skohub-docker-vocabs/example.org/zusatz2/index.de.html -->
+  <!--  
+    Verwendung in der Suchoberfläche:       nicht als Filterkategorie
+    Stellung im Dateinamen:                 optional ab der 6. Position oder höher
+    Verwendung in der Redaktionsoberfläche: Formularfeld
+  -->
+  <valuespace property="ccm:TODO">
+    <key cap="Sprachniveau A1">A1</key>
+    <key cap="Sprachniveau A2">A2</key>
+    <key cap="Atom">Atom</key>
+    <key cap="Aufgaben zur Orientierung">AufgZurOrient</key>
+    <key cap="Aufsatz">Aufsatz</key>
+    <key cap="AbiBac">AbiBac</key>
+    <key cap="Sprachniveau B1">B1</key>
+    <key cap="Sprachniveau B2">B2</key>
+    <key cap="Betrieb">Betrieb</key>
+    <key cap="Beispielprüfung">BspPruef</key>
+    <key cap="Diplôme d'Etude de Langue Française (DELF)">DELF</key>
+    <key cap="Diplôme d'Etude de Langue Française A1 (DELF A1)">DELFA1</key>
+    <key cap="Diplôme d'Etude de Langue Française A2 (DELF A2)">DELFA2</key>
+    <key cap="Diplôme d'Etude de Langue Française B1 (DELF B1)">DELFB1</key>
+    <key cap="Diplôme d'Etude de Langue Française B2 (DELF B2)">DELFB2</key>
+    <key cap="Elektrizitätslehre 1">E1</key>
+    <key cap="Elektrizitätslehre 2">E2</key>
+    <key cap="Energie">Energie</key>
+    <key cap="Externenprüfung">Externenpruefung</key>
+    <key cap="Feststellungsprüfungen Gymnasium (nach §15 Abs. 3 GSO)">FSPGY</key>
+    <key cap="Frühjahr">Fruehjahr</key>
+    <key cap="Herbst">Herbst</key>
+    <key cap="Holz">Holz</key>
+    <key cap="Kunststoff">Kunststoff</key>
+    <key cap="Lesen">Lesen</key>
+    <key cap="Metall">Metall</key>
+    <key cap="Musterprüfung">Musterpruefung</key>
+    <key cap="nicht für Übungszwecke, da ausschließlich für die schulintern gestellte Prüfung">nichtZurUeb</key>
+    <key cap="Orthografie">Orthografie</key>
+    <key cap="Papier">Papier</key>
+    <key cap="Pflichtteil">Pflichtteil</key>
+    <key cap="Rechtschreibung">Rechtschreibung</key>
+    <key cap="Richtig-schreiben">Richtigschreiben</key>
+    <key cap="Sommer">Sommer</key>
+    <key cap="Sprachbetrachtung">Sprachbetrachtung</key>
+    <key cap="Sprachgebrauch">Sprachgebrauch</key>
+    <key cap="Sprachtest">Sprachtest</key>
+    <key cap="Sprache-untersuchen">Spracheuntersuchen</key>
+    <key cap="Textverständnis">Textverstaendnis</key>
+    <key cap="Textrechnen">Textrechnen</key>
+    <key cap="Texte-verfassen">Texteverfassen</key>
+    <key cap="Texte-verstehen">Texteverstehen</key>
+    <key cap="Ton">Ton</key>
+    <key cap="Verkauf">Verkauf</key>
+    <key cap="Wahlteil">Wahlteil</key>
+    <key cap="Weiterentwicklung der Abschlussprüfung">Weiterentwicklung</key>
+    <key cap="Zahlenrechnen">Zahlenrechnen</key>
+    <key cap="Zuhören">Zuhoeren</key>
+  </valuespace>
+  
+  <!-- Jahrgangsstufe https://jakjkga.github.io/skohub-docker-vocabs/example.org/jahrgangsstufe/index.de.html -->
+  <!--  
+    Verwendung in der Suchoberfläche:       nicht als Filterkategorie
+    Stellung im Dateinamen:                 nicht im Dateinamen enthalten
+    Verwendung in der Redaktionsoberfläche: Formularfeld (aber kein Pflichtfeld, bei Jahrgangsstufenarbeiten, Vergleichsarbeiten, Probeunterrichten, Grundwissenstests automatisch gesetzt aus der Prüfungsarchiv hinter dem Prüfungsart-JgstNr.)
+  -->
+  <valuespace property="ccm:TODO">
+    <key cap="1">1</key>
+    <key cap="2">2</key>
+    <key cap="3">3</key>
+    <key cap="4">4</key>
+    <key cap="5">5</key>
+    <key cap="6">6</key>
+    <key cap="7">7</key>
+    <key cap="8">8</key>
+    <key cap="9">9</key>
+    <key cap="10">10</key>
+    <key cap="11">11</key>
+    <key cap="12">12</key>
+    <key cap="13">13</key>
+  </valuespace>
+  
+  <!-- Lizenz https://jakjkga.github.io/skohub-docker-vocabs/example.org/lizenz/index.de.html -->
+  <!--  
+    Verwendung in der Suchoberfläche:       nur für Admins als 5. Filterkategorie
+    Stellung im Dateinamen:                 nicht im Dateinamen enthalten
+    Verwendung in der Redaktionsoberfläche: Formularfeld (Pflichtfeld, bestimmt die Berechtigung des Materials)
+    Verwendung in der Listenansicht oder der Kachelansicht des Prüfungsarchiv-Datensatzes: ja wird angezeigt
+    Verwendung in Hinweisfenstern: Definitionstexte
+  -->
+  <valuespace property="ccm:TODO">
+    <key cap="public (frei zugänglich)">public</key>
+      <key parent="public" cap="Abschluss­prüfung / Jahrgangsstufen­arbeit zur Prüfungs­vorbereitung.">public-def</key>
+    <key cap="no copy (Einsatz im Rahmen des Unterrichts)">nocopy</key>
+      <key parent="nocopy" cap="Die Prüfungs­aufgaben dürfen von der Lehrkraft nur im Rahmen des Unterrichts im Klassen­verband eingesetzt werden. Eine Weiterver­breitung des Materials darüber hinaus ist aus urheber­rechtlichen Gründen nicht zulässig. (Download und Drucken im PDF-Player sind deaktiviert)">nocopy-def</key>
+    <key cap="blackened (Inhalt wg. Urheberrecht teilw. geschwärzt)">blackened</key>
+      <key parent="blackened" cap="Abschluss­prüfung / Jahrgangsstufen­arbeit zur Prüfungs­vorbereitung. Urheberrechtlich geschützte Inhalte wurden entfernt oder unkenntlich gemacht. (Download und Drucken im PDF-Player sind deaktiviert)">blackened-def</key>
+    <key cap="IQB (Einsatz nur im Klassenverband - IQB-Material)">iqb</key>
+      <key parent="iqb" cap="Herkunft: IQB - Die Aufgaben dürfen unter Angabe des Urhebers für nicht-kommerzielle Bildungszwecke genutzt werden. Eine Verwendung in anderen Publikationen ist ohne ausdrückliche Zustimmung der Urheber nicht gestattet. (Download und Drucken im PDF-Player sind deaktiviert)">iqb-def</key>
+    <key cap="restricted (Einsatz nur im Klassenverband - ISB-Material)">restricted</key>
+      <key parent="restricted" cap="Vergleichsarbeit zur Verwendung im Rahmen des Unterrichts im Klassenverband. (Download und Drucken im PDF-Player sind deaktiviert)">restricted-def</key>
+    <key cap="no embed (nur für Lehrkräfte und keine Einbettung)">noembed</key>
+      <key parent="noembed" cap="Das vorliegende Dokument ist ausschließlich für die Hand der Lehrkraft bestimmt. Eine Weitergabe an Schüler ist untersagt. (Download und Drucken für den eigenen Gebrauch sind möglich, das Einbetten ist deaktiviert)">noembed-def</key>
+    <key cap="blocked (keine Weitergabe an Schüler)">blocked</key>
+      <key parent="blocked" cap="Das vorliegende Dokument ist ausschließlich für die Hand des Lehrers bestimmt. Eine Weitergabe an Schüler ist untersagt. (Download und Drucken im PDF-Player sind deaktiviert)">blocked-def</key>
+  </valuespace>
+  
+</valuespaces>
+

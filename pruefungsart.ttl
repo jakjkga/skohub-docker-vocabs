@@ -8,7 +8,7 @@ pruefungsart: a skos:ConceptScheme ;
     dct:creator "Joachim Jakob"@de ;
     dct:created "2021-11-12"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept pruefungsart:AP, pruefungsart:JA, pruefungsart:VA, pruefungsart:PU, pruefungsart:GW .
+    skos:hasTopConcept pruefungsart:AP, pruefungsart:JA, pruefungsart:VA, pruefungsart:PU, pruefungsart:GW, pruefungsart:HSP .
 
 pruefungsart:AP a skos:Concept ;
     skos:prefLabel "Abschlussprüfung"@de ;
@@ -53,13 +53,13 @@ pruefungsart:ABIEP a skos:Concept ;
     skos:inScheme pruefungsart: .
 
 pruefungsart:ABIfachgeb a skos:Concept ;
-    skos:prefLabel "Fachgebundene Hochschulreife"@de ;
+    skos:prefLabel "Fachgebundene Hochschulreife (Fachgeb. Abitur)"@de ;
     skos:altLabel "Fachgeb. Hochschulreife"@de, "Fachgeb. Abitur"@de, "ABIfachgeb"@de ;
     skos:broader pruefungsart:AP ;
     skos:inScheme pruefungsart: .
 
 pruefungsart:FAP a skos:Concept ;
-    skos:prefLabel "Fachhochschulreife"@de ;
+    skos:prefLabel "Fachhochschulreife (Fachabitur)"@de ;
     skos:altLabel "Fachabitur"@de, "Fachabi"@de, "FAP"@de ;
     skos:broader pruefungsart:AP ;
     skos:inScheme pruefungsart: .
@@ -178,4 +178,35 @@ pruefungsart:GW9 a skos:Concept ;
     skos:altLabel "GW9"@de ;
     skos:broader pruefungsart:GW ;
     skos:inScheme pruefungsart: .
+
+pruefungsart:HSP a skos:Concept ;
+    skos:prefLabel "Herkunftssprachenprüfung"@de ;
+    skos:altLabel "HSP"@de ;
+    skos:narrower pruefungsart:HSP7, pruefungsart:HSP8, pruefungsart:HSP9, pruefungsart:HSP10 ;
+    skos:topConceptOf pruefungsart: .
+
+pruefungsart:HSP7 a skos:Concept ;
+    skos:prefLabel "Herkunftssprachenprüfung-7"@de ;
+    skos:altLabel "HSP7"@de ;
+    skos:broader pruefungsart:HSP ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:HSP8 a skos:Concept ;
+    skos:prefLabel "Herkunftssprachenprüfung-8"@de ;
+    skos:altLabel "HSP8"@de ;
+    skos:broader pruefungsart:HSP ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:HSP9 a skos:Concept ;
+    skos:prefLabel "Herkunftssprachenprüfung-9"@de ;
+    skos:altLabel "HSP9"@de ;
+    skos:broader pruefungsart:HSP ;
+    skos:inScheme pruefungsart: .
+
+pruefungsart:HSP10 a skos:Concept ;
+    skos:prefLabel "Herkunftssprachenprüfung-7"@de ;
+    skos:altLabel "HSP10"@de ;
+    skos:broader pruefungsart:HSP ;
+    skos:inScheme pruefungsart: .
+
 
